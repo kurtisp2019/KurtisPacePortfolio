@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/kurtisp2019/KurtisPacePortfolio",
+  "homepage": "https://kurtisp2019.github.io/KurtisPacePortfolio",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
