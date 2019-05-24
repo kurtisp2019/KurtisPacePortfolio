@@ -15,6 +15,10 @@
     padding-top: 16px;
 }
 
+.headerBkgColor {
+    background-color: rgb(0, 60, 139);
+}
+
 .headerLinks {
     width: 100%;
     color: green;
