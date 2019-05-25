@@ -23,7 +23,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <div>
 
           {/* Header */}
@@ -31,14 +31,14 @@ function App() {
 
           {/* Body */}
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route path={`${match.url}/`}component={Home} />
             <Route path={`${match.url}/education`} component={Education} />
-            <Route path="/projects" component={Projects} />
+            {/* <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
             <Route path="/workexperience" component={WorkExperience} />
             <Route path="/resume" component={Resume} />
             <Route path="/skills" component={Skills} />
-            <Route component={PageNotFound} />
+            <Route component={PageNotFound} /> */}
           </Switch>
 
           {/* Footer */}
