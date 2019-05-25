@@ -19,10 +19,9 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 
 function App() {
-  const { match } = this.props;
 
   return (
-    <>
+    <div>
           {/* Header */}
           {<Header />}
 
@@ -40,7 +39,7 @@ function App() {
 
           {/* Footer */}
           <Footer />
-    </>
+    </div>
   );
 }
 
