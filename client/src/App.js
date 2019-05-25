@@ -12,6 +12,7 @@ import Contact from "./pages/Contact"
 import WorkExperience from "./pages/WorkExperience"
 import Resume from "./pages/Resume"
 import Skills from "./pages/Skills"
+import PageNotFound from "./pages/PageNotFound"
 
 // import components
 import Header from "./components/Header"
@@ -35,6 +36,7 @@ function App() {
           <Route exact path="/workexperience" component={WorkExperience} />
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/skills" component={Skills} />
+          <Route component={PageNotFound} />
         </Switch>
       </BrowserRouter>
       {/* </HashRouter> */}
