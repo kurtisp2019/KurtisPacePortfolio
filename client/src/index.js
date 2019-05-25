@@ -8,11 +8,13 @@ import PageNotFound from "./pages/PageNotFound"
 
 ReactDOM.render(
     <BrowserRouter>
-   <Switch>
-      <Route path = "/" component={App} />
-      <Route component={PageNotFound}/>
-   </Switch>
-</BrowserRouter>,
+        <div>
+            <Switch>
+                <Route path="/" component={App} />
+                <Route component={PageNotFound} />
+            </Switch>
+        </div>
+    </BrowserRouter>,
     document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
