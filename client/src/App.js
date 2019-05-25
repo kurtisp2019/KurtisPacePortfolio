@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/KurtisPacePortfolio">
         <div>
 
           {/* <HashRouter history={hashHistory}> */}
