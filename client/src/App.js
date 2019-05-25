@@ -22,27 +22,30 @@ function App() {
 
   return (
     <>
-      <BrowserRouter
-        basename={process.env.PUBLIC_URL}>
-      {/* <HashRouter basename='/'> */}
-        {/* Header */}
-        {<Header />}
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <div>
 
-      {/* Body */}
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/education" component={Education} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/workexperience" component={WorkExperience} />
-          <Route exact path="/resume" component={Resume} />
-          <Route exact path="/skills" component={Skills} />
-          <Route component={PageNotFound} />
-        </Switch>
+          {/* Header */}
+          {<Header />}
+
+          {/* Body */}
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/education" component={Education} />
+            <Route path="/projects" component={Projects} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/workexperience" component={WorkExperience} />
+            <Route path="/resume" component={Resume} />
+            <Route path="/skills" component={Skills} />
+            <Route component={PageNotFound} />
+          </Switch>
+
+          {/* Footer */}
+          <Footer />
+
+        </div>
       </BrowserRouter>
-      {/* </HashRouter> */}
-      {/* Footer */}
-      <Footer />
+
     </>
   );
 }
