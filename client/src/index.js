@@ -3,16 +3,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom"
-import PageNotFound from "./pages/PageNotFound"
+import { BrowserRouter } from "react-router-dom"
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="KurtisPacePortfolio">
         <div>
-            <Switch>
-                <Route path="/" component={App} />
-                <Route component={PageNotFound} />
-            </Switch>
+            <App/>
         </div>
     </BrowserRouter>,
     document.getElementById('root'));
