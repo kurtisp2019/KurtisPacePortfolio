@@ -19,6 +19,7 @@ import Header from "./components/Header"
 import Footer from "./components/Footer"
 
 function App() {
+  const { match } = this.props;
 
   return (
     <>
@@ -31,7 +32,7 @@ function App() {
           {/* Body */}
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/education" component={Education} />
+            <Route path={`${match.url}/education`} component={Education} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
             <Route path="/workexperience" component={WorkExperience} />
