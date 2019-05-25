@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename="/KurtisPacePortfolio">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
 
           {/* <HashRouter history={hashHistory}> */}
 
