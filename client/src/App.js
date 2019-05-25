@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <div>
 
           {/* <HashRouter history={hashHistory}> */}
@@ -32,7 +32,7 @@ function App() {
 
           {/* Body */}
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route path="/" component={Home} />
             <Route path="/education" component={Education} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
