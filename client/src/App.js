@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
+import { HashRouter, Route, Switch } from "react-router-dom"
 
 // reset all css before loading in the pages
 import "./styles/reset.css"
@@ -16,14 +16,13 @@ import Skills from "./pages/Skills"
 // import components
 import Header from "./components/Header"
 import Footer from "./components/Footer"
-import AddClientWidthAndHeight from "./pages/AddClientWidthAndHeight"
 
 function App() {
 
   return (
     <>
-      <Router>
-
+      {/* <Router history={History}> */}
+      <HashRouter basename='/'>
         {/* Header */}
         {<Header />}
 
@@ -37,8 +36,8 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/skills" component={Skills} />
         </Switch>
-      </Router>
-
+      {/* </Router> */}
+      </HashRouter>
       {/* Footer */}
       <Footer />
     </>
