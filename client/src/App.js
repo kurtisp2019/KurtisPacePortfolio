@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  basename={process.env.PUBLIC_URL  + '/'}>
       {/* <HashRouter basename='/'> */}
         {/* Header */}
         {<Header />}
