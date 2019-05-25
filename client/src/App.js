@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom"
 
 // reset all css before loading in the pages
 import "./styles/reset.css"
@@ -22,32 +22,27 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter
+        basename={process.env.PUBLIC_URL}>
+      {/* <HashRouter basename='/'> */}
+        {/* Header */}
+        {<Header />}
 
-          {/* <HashRouter history={hashHistory}> */}
-
-          {/* Header */}
-          {<Header />}
-
-          {/* Body */}
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/education" component={Education} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/workexperience" component={WorkExperience} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/skills" component={Skills} />
-            <Route component={PageNotFound} />
-          </Switch>
-
-          <Footer />
-
+      {/* Body */}
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/workexperience" component={WorkExperience} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/skills" component={Skills} />
+          <Route component={PageNotFound} />
+        </Switch>
       </BrowserRouter>
-
       {/* </HashRouter> */}
       {/* Footer */}
-
+      <Footer />
     </>
   );
 }
