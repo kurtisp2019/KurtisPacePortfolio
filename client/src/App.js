@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Switch } from "react-router-dom"
+import { BrowserRouter, HashRouter, Route, Switch } from "react-router-dom"
 
 // reset all css before loading in the pages
 import "./styles/reset.css"
@@ -21,8 +21,8 @@ function App() {
 
   return (
     <>
-      {/* <Router history={History}> */}
-      <HashRouter basename='/'>
+      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      {/* <HashRouter basename='/'> */}
         {/* Header */}
         {<Header />}
 
@@ -36,8 +36,8 @@ function App() {
           <Route exact path="/resume" component={Resume} />
           <Route exact path="/skills" component={Skills} />
         </Switch>
-      {/* </Router> */}
-      </HashRouter>
+      </BrowserRouter>
+      {/* </HashRouter> */}
       {/* Footer */}
       <Footer />
     </>
