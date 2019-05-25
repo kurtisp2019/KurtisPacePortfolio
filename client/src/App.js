@@ -22,20 +22,20 @@ function App() {
 
   return (
     <>
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
       {/* <HashRouter basename='/'> */}
         {/* Header */}
         {<Header />}
 
       {/* Body */}
         <Switch>
-          <Route exact path="KurtisPacePortfolio/" component={Home} />
-          <Route exact path="KurtisPacePortfolio/education" component={Education} />
-          <Route exact path="KurtisPacePortfolio/projects" component={Projects} />
-          <Route exact path="KurtisPacePortfolio/contact" component={Contact} />
-          <Route exact path="KurtisPacePortfolio/workexperience" component={WorkExperience} />
-          <Route exact path="KurtisPacePortfolio/resume" component={Resume} />
-          <Route exact path="KurtisPacePortfolio/skills" component={Skills} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/workexperience" component={WorkExperience} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/skills" component={Skills} />
           <Route component={PageNotFound} />
         </Switch>
       </BrowserRouter>
