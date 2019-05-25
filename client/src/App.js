@@ -23,7 +23,6 @@ function App() {
   return (
     <>
       <BrowserRouter basename="/KurtisPacePortfolio">
-        <div>
 
           {/* <HashRouter history={hashHistory}> */}
 
@@ -44,7 +43,6 @@ function App() {
 
           <Footer />
 
-        </div>
       </BrowserRouter>
 
       {/* </HashRouter> */}
