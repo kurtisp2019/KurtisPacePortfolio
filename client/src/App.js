@@ -24,7 +24,7 @@ function App() {
     <>
       <BrowserRouter
         history={History}
-        basename={process.env.PUBLIC_URL}>
+        basename="/KurtisPacePortfolio">
       {/* <HashRouter basename='/'> */}
         {/* Header */}
         {<Header />}
