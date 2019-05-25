@@ -22,7 +22,9 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter
+        history={History}
+        basename={process.env.PUBLIC_URL}>
       {/* <HashRouter basename='/'> */}
         {/* Header */}
         {<Header />}
