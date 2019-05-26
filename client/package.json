@@ -2,7 +2,8 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://kurtisp2019.github.io/KurtisPacePortfolio",
+  // "homepage": "http://kurtisp2019.github.io/KurtisPacePortfolio",
+  "homepage": "*",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
