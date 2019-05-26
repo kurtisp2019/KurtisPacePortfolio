@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/KurtisPacePortfolio/static/css/main.b85b56c4.chunk.css",
-    "main.js": "/KurtisPacePortfolio/static/js/main.05d1b276.chunk.js",
-    "main.js.map": "/KurtisPacePortfolio/static/js/main.05d1b276.chunk.js.map",
-    "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
-    "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
-    "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
-    "static/js/2.02ec3ba5.chunk.js": "/KurtisPacePortfolio/static/js/2.02ec3ba5.chunk.js",
-    "static/js/2.02ec3ba5.chunk.js.map": "/KurtisPacePortfolio/static/js/2.02ec3ba5.chunk.js.map",
-    "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.532fba84a7de169fa8c399c756f5b680.js": "/KurtisPacePortfolio/precache-manifest.532fba84a7de169fa8c399c756f5b680.js",
-    "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
-    "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
-    "static/css/main.b85b56c4.chunk.css.map": "/KurtisPacePortfolio/static/css/main.b85b56c4.chunk.css.map"
+    "main.css": "*/static/css/main.b85b56c4.chunk.css",
+    "main.js": "*/static/js/main.dfb5ec29.chunk.js",
+    "main.js.map": "*/static/js/main.dfb5ec29.chunk.js.map",
+    "runtime~main.js": "*/static/js/runtime~main.f4cec393.js",
+    "runtime~main.js.map": "*/static/js/runtime~main.f4cec393.js.map",
+    "static/css/2.df9ef6f4.chunk.css": "*/static/css/2.df9ef6f4.chunk.css",
+    "static/js/2.02ec3ba5.chunk.js": "*/static/js/2.02ec3ba5.chunk.js",
+    "static/js/2.02ec3ba5.chunk.js.map": "*/static/js/2.02ec3ba5.chunk.js.map",
+    "index.html": "*/index.html",
+    "precache-manifest.a2966e2eb509132aa993fa68ef6a7ff4.js": "*/precache-manifest.a2966e2eb509132aa993fa68ef6a7ff4.js",
+    "service-worker.js": "*/service-worker.js",
+    "static/css/2.df9ef6f4.chunk.css.map": "*/static/css/2.df9ef6f4.chunk.css.map",
+    "static/css/main.b85b56c4.chunk.css.map": "*/static/css/main.b85b56c4.chunk.css.map"
   }
 }
