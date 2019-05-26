@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "*/static/css/main.b85b56c4.chunk.css",
-    "main.js": "*/static/js/main.427b67a6.chunk.js",
-    "main.js.map": "*/static/js/main.427b67a6.chunk.js.map",
-    "runtime~main.js": "*/static/js/runtime~main.f4cec393.js",
-    "runtime~main.js.map": "*/static/js/runtime~main.f4cec393.js.map",
-    "static/css/2.df9ef6f4.chunk.css": "*/static/css/2.df9ef6f4.chunk.css",
-    "static/js/2.02ec3ba5.chunk.js": "*/static/js/2.02ec3ba5.chunk.js",
-    "static/js/2.02ec3ba5.chunk.js.map": "*/static/js/2.02ec3ba5.chunk.js.map",
-    "index.html": "*/index.html",
-    "precache-manifest.3fc32078bae987ec407fd5cb73642037.js": "*/precache-manifest.3fc32078bae987ec407fd5cb73642037.js",
-    "service-worker.js": "*/service-worker.js",
-    "static/css/2.df9ef6f4.chunk.css.map": "*/static/css/2.df9ef6f4.chunk.css.map",
-    "static/css/main.b85b56c4.chunk.css.map": "*/static/css/main.b85b56c4.chunk.css.map"
+    "main.css": "/KurtisPacePortfolio/static/css/main.b85b56c4.chunk.css",
+    "main.js": "/KurtisPacePortfolio/static/js/main.f954c66f.chunk.js",
+    "main.js.map": "/KurtisPacePortfolio/static/js/main.f954c66f.chunk.js.map",
+    "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
+    "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
+    "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
+    "static/js/2.02ec3ba5.chunk.js": "/KurtisPacePortfolio/static/js/2.02ec3ba5.chunk.js",
+    "static/js/2.02ec3ba5.chunk.js.map": "/KurtisPacePortfolio/static/js/2.02ec3ba5.chunk.js.map",
+    "index.html": "/KurtisPacePortfolio/index.html",
+    "precache-manifest.22c8545daf9c6913fd7d82350cc10461.js": "/KurtisPacePortfolio/precache-manifest.22c8545daf9c6913fd7d82350cc10461.js",
+    "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
+    "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
+    "static/css/main.b85b56c4.chunk.css.map": "/KurtisPacePortfolio/static/css/main.b85b56c4.chunk.css.map"
   }
 }
