@@ -7,7 +7,6 @@ import { HashRouter } from "react-router-dom"
 
 ReactDOM.render(
     <HashRouter basename="/KurtisPacePortfolio/">
-        <p>Public URL2: {process.env.PUBLIC_URL}</p>
             <App/>
     </HashRouter>,
     document.getElementById('root'));
