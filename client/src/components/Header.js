@@ -51,12 +51,12 @@ class Header extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {{backgroundColor: "white"}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link to="/">Home</Nav.Link>
-                        <Nav.Link to="/education">Education</Nav.Link>
-                        <Nav.Link to="/workexperience">Work Experience</Nav.Link>
-                        <Nav.Link to="/skills">Skills</Nav.Link>
-                        <Nav.Link to="/resume">Resume</Nav.Link>
-                        <Nav.Link to="/contact">Contact</Nav.Link>
+                        <Nav.Link to="/KurtisPacePortfolio/#/">Home</Nav.Link>
+                        <Nav.Link to="/KurtisPacePortfolio/#/education">Education</Nav.Link>
+                        <Nav.Link to="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
+                        <Nav.Link to="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
+                        <Nav.Link to="/KurtisPacePortfolio/resume">Resume</Nav.Link>
+                        <Nav.Link to="/KurtisPacePortfolio/#//contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
