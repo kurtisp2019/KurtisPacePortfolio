@@ -35,11 +35,11 @@ class Header extends Component {
         
         return <header>
             <Navbar expand="lg" className = "mobileHeading">
-                <Navbar.Brand href="#home" style={{ marginRight: 0,color: "white" }}>Kurtis Pace Portfolio</Navbar.Brand>
+                <Navbar.Brand href="/KurtisPacePortfolio/#/" style={{ marginRight: 0,color: "white" }}>Kurtis Pace Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {{backgroundColor: "white"}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link style = {{color: "white"}} href="/#/">Home</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/">Home</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
