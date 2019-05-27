@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from "react-router-dom"
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename="/KurtisPacePortfolio/">
         <p>Public URL2: {process.env.PUBLIC_URL}</p>
             <App/>
     </BrowserRouter>,
