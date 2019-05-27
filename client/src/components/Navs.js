@@ -13,25 +13,25 @@ function Navs() {
         <>
             <Nav className="justify-content-end" activeKey="/home">
                 <Nav.Item>
-                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/">Home</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/projects">Projects</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/projects">Projects</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/education">Education</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/resume">Resume</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/resume">Resume</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/skills">Skills</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link href="/workexperience">Work Experience</Nav.Link>
+                    <Nav.Link href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
                 </Nav.Item>
             </Nav>
         </>

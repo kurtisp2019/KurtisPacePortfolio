@@ -22,18 +22,6 @@ class Header extends Component {
     componentWillUnmount() {
     }
 
-    getJSXHeaderDivLinks() {
-        return <header>
-                <div className= "heading">Kurtis Pace Portfolio</div>
-                <Link to="/KurtisPacePortfolio/#/"><div className="headerLinks" variant="outline-success">Home</div></Link>
-                <Link to="/KurtisPacePortfolio/#/education"><div className="headerLinks" variant="outline-success">Education</div></Link>
-                <Link to="/KurtisPacePortfolio/#/workexperience"><div className="headerLinks" variant="outline-success">Work Experience</div></Link>
-               <Link to="/KurtisPacePortfolio/#/skills"><div className="headerLinks" variant="outline-success">Skills</div></Link>
-               <Link to="/KurtisPacePortfolio/#/resume"><div className="headerLinks" variant="outline-success">Resume</div></Link>
-                <Link to="/KurtisPacePortfolio/contact"><div className="headerLinks" variant="outline-success">Contact</div></Link>
-            </header>;
-    }
-
     getJSXHeaderDesktopLinks() {
         return <header>
             <div className="header">
@@ -51,12 +39,12 @@ class Header extends Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {{backgroundColor: "white"}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link to="/KurtisPacePortfolio/#/">Home</Nav.Link>
-                        <Nav.Link to="/KurtisPacePortfolio/#/education">Education</Nav.Link>
-                        <Nav.Link to="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
-                        <Nav.Link to="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
-                        <Nav.Link to="/KurtisPacePortfolio/resume">Resume</Nav.Link>
-                        <Nav.Link to="/KurtisPacePortfolio/#//contact">Contact</Nav.Link>
+                        <Nav.Link href="/#/">Home</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/#/resume">Resume</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
