@@ -25,12 +25,12 @@ class Header extends Component {
     getJSXHeaderDivLinks() {
         return <header>
                 <div className= "heading">Kurtis Pace Portfolio</div>
-                <Link to="/"><div className="headerLinks" variant="outline-success">Home</div></Link>
-                <Link to="/education"><div className="headerLinks" variant="outline-success">Education</div></Link>
-                <Link to="/workexperience"><div className="headerLinks" variant="outline-success">Work Experience</div></Link>
-               <Link to="/skills"><div className="headerLinks" variant="outline-success">Skills</div></Link>
-               <Link to="/resume"><div className="headerLinks" variant="outline-success">Resume</div></Link>
-                <Link to="/contact"><div className="headerLinks" variant="outline-success">Contact</div></Link>
+                <Link to="/KurtisPacePortfolio/#/"><div className="headerLinks" variant="outline-success">Home</div></Link>
+                <Link to="/KurtisPacePortfolio/#/education"><div className="headerLinks" variant="outline-success">Education</div></Link>
+                <Link to="/KurtisPacePortfolio/#/workexperience"><div className="headerLinks" variant="outline-success">Work Experience</div></Link>
+               <Link to="/KurtisPacePortfolio/#/skills"><div className="headerLinks" variant="outline-success">Skills</div></Link>
+               <Link to="/KurtisPacePortfolio/#/resume"><div className="headerLinks" variant="outline-success">Resume</div></Link>
+                <Link to="/KurtisPacePortfolio/contact"><div className="headerLinks" variant="outline-success">Contact</div></Link>
             </header>;
     }
 
