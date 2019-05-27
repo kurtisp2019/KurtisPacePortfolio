@@ -52,9 +52,9 @@ class Header extends Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="/">Home</Nav.Link>
-                        <Nav.Link href="/education">Education</Nav.Link>
-                        <Nav.Link href="/workexperience">Work Experience</Nav.Link>
-                        <Nav.Link href="/skills">Skills</Nav.Link>
+                        <Nav.Link href="/#/education">Education</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/workexperience">Work Experience</Nav.Link>
+                        <Nav.Link href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
                         <Nav.Link href="/resume">Resume</Nav.Link>
                         <Nav.Link href="/contact">Contact</Nav.Link>
                     </Nav>
