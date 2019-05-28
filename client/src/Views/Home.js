@@ -9,11 +9,11 @@ import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAn
 
 // pages
 import AboutMe from "./AboutMe"
-import ContactInfo from "../components/ContactInfo"
-import ContactMe from "../components/ContactMe"
+import ContactInfo from "./Contact/ContactInfo"
+import ContactMe from "./Contact/ContactMe"
 import Education from "./Education"
 
-class Home extends Component { 
+class Home extends Component {
 
 
     render() {
@@ -21,10 +21,11 @@ class Home extends Component {
 
         if (this.props.windowWidth < 768) {
             jsx = <>
-                <p> Home Page!  </p>
                 <AboutMe />
-                <ContactInfo />
-                <ContactMe />
+                <div style={{ paddingTop: "25px", paddingBottom: "25px", background: "lightyellow" }}>
+                    <ContactInfo />
+                    <ContactMe />
+                </div>
                 <Education />
             </>;
         }

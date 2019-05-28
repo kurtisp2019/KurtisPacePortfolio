@@ -13,7 +13,7 @@ function HomeLogo() {
     <>
       <Navbar.Brand style={{ marginLeft: "10px", float: "left" }} href="/">
         <img
-          src={require("../resources/images/computer-icon.jpg")}
+          src={require("../../resources/images/computer-icon.jpg")}
           width="40"
           height="40"
           className="d-inline-block align-top"

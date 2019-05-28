@@ -8,15 +8,15 @@ import "./styles/reset.css"
 import Home from "./Views/Home"
 import Education from "./Views/Education"
 import Projects from "./Views/Projects"
-import Contact from "./Views/Contact"
+import Contact from "./Views/Contact/Contact"
 import WorkExperience from "./Views/WorkExperience"
 import Resume from "./Views/Resume"
 import Skills from "./Views/Skills"
 import PageNotFound from "./Views/PageNotFound"
 
 // import components
-import Header from "./components/Header"
-import Footer from "./components/Footer"
+import Header from "./Views/Header/Header"
+import Footer from "./Views/Footer"
 
 
 var headerMenuIsCollapsed = false;

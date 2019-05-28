@@ -5,10 +5,10 @@
  */
 
 import React, { Component } from "react"
-import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
-import ContactInfo from "../components/ContactInfo";
-import ContactMe from "../components/ContactMe";
-import  "../styles/contact.css"
+import AddClientWidthAndHeight from "../../Higher Order Components/AddClientWidthAndHeight"
+import ContactInfo from "./ContactInfo";
+import ContactMe from "./ContactMe";
+import  "../../styles/contact.css"
 
 class  Contact extends Component {
     
@@ -27,6 +27,9 @@ class  Contact extends Component {
                 <div className = "background" style={{ paddingTop: (this.props.windowHeight / 2) - headerBufferMobile }}>
          
                     <ContactInfo />
+               
+                    <p style={{ textAlign: "center", fontSize: "45px", fontStyle: "italic" }}>OR</p>
+
                     <ContactMe />
 
                     <p>Window Width: {this.props.windowWidth}</p>

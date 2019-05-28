@@ -3,14 +3,14 @@
  *      Header.js
  * 
  */
-import "../styles/header.css"
+import "../../styles/header.css"
 import React, { Component } from "react"
 import HomeLogo from "./HomeLogo"
 import { BrowserRouter as Router, Link } from "react-router-dom"
-import Navs from "../components/Navs"
+import Navs from "./Navs"
 
 import { Nav, Navbar, NavDropdown, Button, Form , FormControl } from 'react-bootstrap'
-import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
+import AddClientWidthAndHeight from "../../Higher Order Components/AddClientWidthAndHeight"
 
 class Header extends Component {
 
