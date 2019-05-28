@@ -9,8 +9,9 @@ import React from "react"
 
 function ContactMe() {
     return (
-        <div style={{ textDecoration: "underline", paddingTop: "25px", paddingBottom: "25px", textAlign: "center", backgroundColor: "lightblue" }}>
-            <p style={{ fontSize: "45px"}}>Contact Me</p>
+        <div style={{ fontFamily: "'Montserrat', sans-serif", paddingTop: "25px", paddingBottom: "25px", textAlign: "center", backgroundColor: "lightblue" }}>
+            <p style={{ textDecoration: "underline", fontSize: "45px"}}>Contact Me</p>
+           
             <form >
                 <div style={{ paddingTop: "25px" }}>
                     <p>Title: </p>

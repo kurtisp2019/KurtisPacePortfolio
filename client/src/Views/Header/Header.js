@@ -50,6 +50,7 @@ class Header extends Component {
                 <Navbar.Brand href="/KurtisPacePortfolio/#/" style={{ marginRight: 0,color: "white" }}>Kurtis Pace Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {{backgroundColor: "white"}}/>
                 <Navbar.Collapse id="basic-navbar-nav">
+                <hr style = {{backgroundColor: "white", size: 1}}></hr>
                     <Nav className="mr-auto">
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/">Home</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
