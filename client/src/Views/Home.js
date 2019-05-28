@@ -22,7 +22,7 @@ class Home extends Component {
         if (this.props.windowWidth < 768) {
             jsx = <>
                 <AboutMe />
-                <div style={{ paddingTop: "25px", paddingBottom: "25px", background: "lightyellow" }}>
+                <div style={{ background: "lightyellow" }}>
                     <ContactInfo />
                     <ContactMe />
                 </div>
