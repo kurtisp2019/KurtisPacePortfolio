@@ -5,40 +5,52 @@ import { Route, Switch } from "react-router-dom"
 import "./styles/reset.css"
 
 // import pages
-import Home from "./pages/Home"
-import Education from "./pages/Education"
-import Projects from "./pages/Projects"
-import Contact from "./pages/Contact"
-import WorkExperience from "./pages/WorkExperience"
-import Resume from "./pages/Resume"
-import Skills from "./pages/Skills"
-import PageNotFound from "./pages/PageNotFound"
+import Home from "./Views/Home"
+import Education from "./Views/Education"
+import Projects from "./Views/Projects"
+import Contact from "./Views/Contact"
+import WorkExperience from "./Views/WorkExperience"
+import Resume from "./Views/Resume"
+import Skills from "./Views/Skills"
+import PageNotFound from "./Views/PageNotFound"
 
 // import components
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 
+
+var headerMenuIsCollapsed = false;
+function getHeaderCollapsedMenuState(_theState){
+
+  if (_theState)
+  headerMenuIsCollapsed = true;
+  else
+  headerMenuIsCollapsed = false;
+}
+
 function App() {
 
   return (
     <div>
-          {/* Header */}
-          {<Header />}
+      {/* Header */}
+      {<Header parentCallback={getHeaderCollapsedMenuState} />}
 
-          {/* Body */}
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/education" component={Education} />
-            <Route exact path="/projects" component={Projects} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/workexperience" component={WorkExperience} />
-            <Route exact path="/resume" component={Resume} />
-            <Route exact path="/skills" component={Skills} />
-            <Route component={PageNotFound} />
-          </Switch>
+      {/* Body */}
+      <Switch>
 
-          {/* Footer */}
-          <Footer />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/education" component={Education} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact"  headerMenuIsCollapsed={headerMenuIsCollapsed} component={Contact} />
+          <Route exact path="/workexperience" component={WorkExperience} />
+          <Route exact path="/resume" component={Resume} />
+          <Route exact path="/skills" component={Skills} />
+          <Route component={PageNotFound} />
+
+      </Switch>
+
+        {/* Footer */}
+      {/* <Footer /> */}
     </div>
   );
 }

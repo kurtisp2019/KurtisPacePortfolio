@@ -10,11 +10,14 @@ import { BrowserRouter as Router, Link } from "react-router-dom"
 import Navs from "../components/Navs"
 
 import { Nav, Navbar, NavDropdown, Button, Form , FormControl } from 'react-bootstrap'
-import AddClientWidthAndHeight from "../pages/AddClientWidthAndHeight"
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
 
 class Header extends Component {
 
-   
+    state = {
+        m_bCollapsedMenuExpanded: false
+    }
+
     componentDidMount() { 
 
     }
@@ -30,11 +33,20 @@ class Header extends Component {
             </div>
         </header>;
     }
+    
+    menuToggle = () => {
+        if (this.state.m_bCollapsedMenuExpanded)
+            this.setState({m_bCollapsedMenuExpanded: false});
+            else
+            this.setState({ m_bCollapsedMenuExpanded: true });
+        
+        this.props.parentCallback(this.state.m_bCollapsedMenuExpanded);
+    }
 
     getJSXHeaderCollapsedLinks() {
         
         return <header>
-            <Navbar expand="lg" className = "mobileHeading">
+            <Navbar onToggle = {this.menuToggle} expand="lg" className = "mobileHeading">
                 <Navbar.Brand href="/KurtisPacePortfolio/#/" style={{ marginRight: 0,color: "white" }}>Kurtis Pace Portfolio</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" style = {{backgroundColor: "white"}}/>
                 <Navbar.Collapse id="basic-navbar-nav">

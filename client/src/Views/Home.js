@@ -5,7 +5,7 @@
  */
 
 import React, { Component } from "react"
-import AddClientWidthAndHeight from "../pages/AddClientWidthAndHeight"
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
 
 // pages
 import AboutMe from "./AboutMe"

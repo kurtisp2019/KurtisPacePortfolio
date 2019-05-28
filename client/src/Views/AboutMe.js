@@ -5,7 +5,7 @@
  */
 
 import React from "react"
-import AddClientWidthAndHeight from "../pages/AddClientWidthAndHeight"
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
 
 function AboutMe() { 
 
