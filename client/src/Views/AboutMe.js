@@ -10,7 +10,7 @@ function AboutMe() {
 
     return(
         <>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", textAlign: "center", backgroundColor: "lightyellow" }}>
+            <div style={{ fontFamily: "'Montserrat', sans-serif", textAlign: "center", backgroundColor: "lightyellow", color: "#285172" }}>
             <p style={{ textDecoration: "underline", paddingBottom: "25px", paddingTop: "60px", fontSize: "45px", fontWeight: "bold" }}> About Me</p>
                 <p style={{ paddingBottom: "25px", lineHeight: "1.5", fontSize: "22px", marginLeft: "5vw", marginRight: "5vw" }}>I started developing 11 years ago,
                  I graduated from Full Sail University in Orlando Florida in 2011 with a 

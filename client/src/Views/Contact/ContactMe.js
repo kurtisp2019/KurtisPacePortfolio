@@ -9,7 +9,7 @@ import React from "react"
 
 function ContactMe() {
     return (
-        <div style={{ fontFamily: "'Montserrat', sans-serif", paddingTop: "25px", paddingBottom: "25px", textAlign: "center", backgroundColor: "lightblue" }}>
+        <div style={{ color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "25px", paddingBottom: "25px", textAlign: "center", backgroundColor: "lightblue" }}>
             <p style={{ textDecoration: "underline", fontSize: "45px"}}>Contact Me</p>
            
             <form >
