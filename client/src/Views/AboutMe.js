@@ -10,9 +10,8 @@ function AboutMe() {
 
     return(
         <>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", textAlign: "center", backgroundColor: "lightblue" }}>
+            <div style={{ fontFamily: "'Montserrat', sans-serif", textAlign: "center", backgroundColor: "lightyellow" }}>
             <p style={{ textDecoration: "underline", paddingBottom: "25px", paddingTop: "60px", fontSize: "45px", fontWeight: "bold" }}> About Me</p>
-            <img style={{ border: "1px solid black", width: "240px", height: "320px", marginBottom: "25px"}} src={require("../resources/images/temp-profilepic.jpg")} alt="temp pic"></img>
                 <p style={{ paddingBottom: "25px", lineHeight: "1.5", fontSize: "22px", marginLeft: "5vw", marginRight: "5vw" }}>I started developing 11 years ago,
                  I graduated from Full Sail University in Orlando Florida in 2011 with a 
                  <span style={{ fontSize: "26px", fontWeight: "bold" }}> bachelors in computer science</span> specifically for 

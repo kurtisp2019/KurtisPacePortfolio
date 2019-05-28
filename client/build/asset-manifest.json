@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/KurtisPacePortfolio/static/css/main.a8929c7d.chunk.css",
-    "main.js": "/KurtisPacePortfolio/static/js/main.a53fe1f3.chunk.js",
-    "main.js.map": "/KurtisPacePortfolio/static/js/main.a53fe1f3.chunk.js.map",
+    "main.css": "/KurtisPacePortfolio/static/css/main.34e9591e.chunk.css",
+    "main.js": "/KurtisPacePortfolio/static/js/main.61018cf4.chunk.js",
+    "main.js.map": "/KurtisPacePortfolio/static/js/main.61018cf4.chunk.js.map",
     "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
     "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
     "static/js/2.5a789e20.chunk.js": "/KurtisPacePortfolio/static/js/2.5a789e20.chunk.js",
     "static/js/2.5a789e20.chunk.js.map": "/KurtisPacePortfolio/static/js/2.5a789e20.chunk.js.map",
     "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.fb1e8ea9d42bba41e2f56a45e18d7a78.js": "/KurtisPacePortfolio/precache-manifest.fb1e8ea9d42bba41e2f56a45e18d7a78.js",
+    "precache-manifest.ae184eaf16bfb700bc9c4fe8aa28b668.js": "/KurtisPacePortfolio/precache-manifest.ae184eaf16bfb700bc9c4fe8aa28b668.js",
     "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
-    "static/css/main.a8929c7d.chunk.css.map": "/KurtisPacePortfolio/static/css/main.a8929c7d.chunk.css.map",
+    "static/css/main.34e9591e.chunk.css.map": "/KurtisPacePortfolio/static/css/main.34e9591e.chunk.css.map",
     "static/media/temp-profilepic.jpg": "/KurtisPacePortfolio/static/media/temp-profilepic.d1d1ec14.jpg"
   }
 }
