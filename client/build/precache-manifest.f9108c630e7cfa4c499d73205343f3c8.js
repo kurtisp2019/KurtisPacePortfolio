@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8c495823d942a5cf1a6793212094de2",
+    "revision": "5f3c51cb0e75dbb1415476c092bbd3a6",
     "url": "/KurtisPacePortfolio/index.html"
   },
   {
-    "revision": "bb5490ea92ba99c8983d",
+    "revision": "2bf17bcc9f37d932257a",
     "url": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css"
   },
   {
-    "revision": "feb67a553c7d9b515cdf",
+    "revision": "809911f282ce0b601361",
     "url": "/KurtisPacePortfolio/static/css/main.b8528a5d.chunk.css"
   },
   {
-    "revision": "bb5490ea92ba99c8983d",
-    "url": "/KurtisPacePortfolio/static/js/2.3ae172ca.chunk.js"
+    "revision": "2bf17bcc9f37d932257a",
+    "url": "/KurtisPacePortfolio/static/js/2.87310e68.chunk.js"
   },
   {
-    "revision": "feb67a553c7d9b515cdf",
-    "url": "/KurtisPacePortfolio/static/js/main.de8af155.chunk.js"
+    "revision": "809911f282ce0b601361",
+    "url": "/KurtisPacePortfolio/static/js/main.db30997f.chunk.js"
   },
   {
     "revision": "7aa51fd1649ffd4afb1e",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4505d854c9380576c9449c3d7123130c",
     "url": "/KurtisPacePortfolio/static/media/fullsail.4505d854.png"
+  },
+  {
+    "revision": "3cbbba09a6917ce1174206a77d7d65ec",
+    "url": "/KurtisPacePortfolio/static/media/sequelize-burger-ss1.3cbbba09.png"
   },
   {
     "revision": "d1d1ec1498801dc01686293d7b34dd52",

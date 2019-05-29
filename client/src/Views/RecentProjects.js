@@ -17,7 +17,7 @@ function RecentProjects() {
                 <p style={{ textAlign: "center", fontWeight: "bolder", fontSize: "45px" }}>Recent Projects</p>
                 <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
 
-                <img style={{paddingTop: "25px"}} src={require("../resources/images/sequelize-burger-ss1.png")} alt = "sequelize burger screenshot"/>
+                <img style={{ width: "350px", height: "250px", paddingTop: "25px"}} src={require("../resources/images/sequelize-burger-ss1.png")} alt = "sequelize burger screenshot"/>
       
                 <p style={{paddingTop: "10px", fontSize: "35px"}}>1. "Burger"</p>
                 <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
