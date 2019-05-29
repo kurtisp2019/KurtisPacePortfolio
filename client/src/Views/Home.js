@@ -24,10 +24,10 @@ class Home extends Component {
             jsx = <>
                 <Title/>
                 <AboutMe />
+                <Education />
                 <div style={{ background: "lightyellow" }}>
                     <ContactMe />
                 </div>
-                <Education />
             </>;
         }
         else {

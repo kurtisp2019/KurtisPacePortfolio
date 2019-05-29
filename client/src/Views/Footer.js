@@ -10,7 +10,7 @@ import "../styles/footer.css"
 function Footer() { 
 
     return (
-        <p className="footer">Kurtis Pace &#169;</p>
+        <p className="footer">Copyright &#169; Kurtis Pace </p>
     );
 }
 

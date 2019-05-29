@@ -10,9 +10,10 @@ function AboutMe() {
 
     return(
         <>
-            <div style={{ fontFamily: "'Montserrat', sans-serif", textAlign: "center", backgroundColor: "lightyellow", color: "#285172" }}>
-            <p style={{ textDecoration: "underline", paddingBottom: "25px", paddingTop: "60px", fontSize: "45px", fontWeight: "bold" }}> About Me</p>
-                <p style={{ paddingBottom: "25px", lineHeight: "1.5", fontSize: "22px", marginLeft: "5vw", marginRight: "5vw" }}>I started developing 11 years ago,
+            <div style={{ fontFamily: "'Montserrat', sans-serif", textAlign: "center", backgroundColor: "white", color: "#285172" }}>
+            <p style={{ paddingTop: "60px", fontSize: "45px", fontWeight: "bolder" }}> About Me</p>
+            <hr style={{  marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px"}}></hr>
+                <p style={{ paddingTop: "25px", paddingBottom: "25px", lineHeight: "1.5", fontSize: "22px", marginLeft: "5vw", marginRight: "5vw" }}>I started developing 11 years ago,
                  I graduated from Full Sail University in Orlando Florida in 2011 with a 
                  <span style={{ fontSize: "26px", fontWeight: "bold" }}> bachelors in computer science</span> specifically for 
                  <span style={{ fontSize: "26px", fontWeight: "bold" }}> Game Development.</span>  The program was
@@ -26,7 +27,7 @@ function AboutMe() {
                     
                 <br></br>    
                     <br></br>
-                Recently as of May 2019 I completed a coding bootcamp 
+                Recently as of May 2019, I completed a coding bootcamp 
                     at Denver University for fullstack development using <span style={{ fontSize: "26px", fontWeight: "bold" }}>Javascript</span> and learned 
                     technologies like <span style={{ fontSize: "26px", fontWeight: "bold" }}> Node, Express, MySQL, MongoDB, Sequelize, Mongoose, and React.</span>  </p>
             </div>
