@@ -7,7 +7,7 @@ import "./styles/reset.css"
 // import pages
 import Home from "./Views/Home"
 import Education from "./Views/Education"
-import Projects from "./Views/Projects"
+import RecentProjects from "./Views/RecentProjects"
 import Contact from "./Views/Contact/Contact"
 import WorkExperience from "./Views/WorkExperience"
 import Resume from "./Views/Resume"
@@ -40,7 +40,7 @@ function App() {
 
           <Route exact path="/" component={Home} />
           <Route exact path="/education" component={Education} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/projects" component={RecentProjects} />
           <Route exact path="/contact"  headerMenuIsCollapsed={headerMenuIsCollapsed} component={Contact} />
           <Route exact path="/workexperience" component={WorkExperience} />
           <Route exact path="/resume" component={Resume} />

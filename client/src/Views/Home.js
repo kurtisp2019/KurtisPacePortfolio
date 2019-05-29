@@ -13,6 +13,7 @@ import ContactInfo from "./Contact/ContactInfo"
 import ContactMe from "./Contact/ContactMe"
 import Education from "./Education"
 import Title from "./Title"
+import RecentProjects from "./RecentProjects"
 
 class Home extends Component {
 
@@ -22,12 +23,11 @@ class Home extends Component {
 
         if (this.props.windowWidth < 768) {
             jsx = <>
-                <Title/>
+                <Title />
                 <AboutMe />
                 <Education />
-                <div style={{ background: "lightyellow" }}>
-                    <ContactMe />
-                </div>
+                <RecentProjects/>
+                <ContactMe />
             </>;
         }
         else {

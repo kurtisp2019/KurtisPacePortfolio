@@ -10,7 +10,6 @@ import React from "react"
 
 function sendEmail(_e) {
 
-    _e.preventDefault();
 
     var subject = document.getElementById("input-subject");
     var cc = document.getElementById("input-cc");
