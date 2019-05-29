@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/KurtisPacePortfolio/static/css/main.b8528a5d.chunk.css",
-    "main.js": "/KurtisPacePortfolio/static/js/main.de8af155.chunk.js",
-    "main.js.map": "/KurtisPacePortfolio/static/js/main.de8af155.chunk.js.map",
+    "main.js": "/KurtisPacePortfolio/static/js/main.db30997f.chunk.js",
+    "main.js.map": "/KurtisPacePortfolio/static/js/main.db30997f.chunk.js.map",
     "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
     "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
-    "static/js/2.3ae172ca.chunk.js": "/KurtisPacePortfolio/static/js/2.3ae172ca.chunk.js",
-    "static/js/2.3ae172ca.chunk.js.map": "/KurtisPacePortfolio/static/js/2.3ae172ca.chunk.js.map",
+    "static/js/2.87310e68.chunk.js": "/KurtisPacePortfolio/static/js/2.87310e68.chunk.js",
+    "static/js/2.87310e68.chunk.js.map": "/KurtisPacePortfolio/static/js/2.87310e68.chunk.js.map",
     "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.5d726e5e6af7f016c424fa3dae92ec8f.js": "/KurtisPacePortfolio/precache-manifest.5d726e5e6af7f016c424fa3dae92ec8f.js",
+    "precache-manifest.f9108c630e7cfa4c499d73205343f3c8.js": "/KurtisPacePortfolio/precache-manifest.f9108c630e7cfa4c499d73205343f3c8.js",
     "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
     "static/css/main.b8528a5d.chunk.css.map": "/KurtisPacePortfolio/static/css/main.b8528a5d.chunk.css.map",
     "static/media/DU-certificate.png": "/KurtisPacePortfolio/static/media/DU-certificate.fdc0a5bd.png",
     "static/media/DU-logo.jpg": "/KurtisPacePortfolio/static/media/DU-logo.91afde0a.jpg",
     "static/media/fullsail.png": "/KurtisPacePortfolio/static/media/fullsail.4505d854.png",
+    "static/media/sequelize-burger-ss1.png": "/KurtisPacePortfolio/static/media/sequelize-burger-ss1.3cbbba09.png",
     "static/media/temp-profilepic.jpg": "/KurtisPacePortfolio/static/media/temp-profilepic.d1d1ec14.jpg"
   }
 }
