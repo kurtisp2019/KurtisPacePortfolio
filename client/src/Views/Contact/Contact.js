@@ -31,9 +31,6 @@ class  Contact extends Component {
                     <p style={{ textAlign: "center", fontSize: "45px", fontStyle: "italic" }}>OR</p>
 
                     <ContactMe />
-
-                    <p>Window Width: {this.props.windowWidth}</p>
-                    <p>Window Height: {this.props.windowHeight}</p>
                </div>
             </>
         );
