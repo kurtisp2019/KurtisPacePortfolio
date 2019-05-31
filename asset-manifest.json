@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/KurtisPacePortfolio/static/css/main.b8528a5d.chunk.css",
-    "main.js": "/KurtisPacePortfolio/static/js/main.82e91ec3.chunk.js",
-    "main.js.map": "/KurtisPacePortfolio/static/js/main.82e91ec3.chunk.js.map",
+    "main.css": "/KurtisPacePortfolio/static/css/main.3b7a7fe2.chunk.css",
+    "main.js": "/KurtisPacePortfolio/static/js/main.502dbbba.chunk.js",
+    "main.js.map": "/KurtisPacePortfolio/static/js/main.502dbbba.chunk.js.map",
     "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
     "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
-    "static/js/2.87310e68.chunk.js": "/KurtisPacePortfolio/static/js/2.87310e68.chunk.js",
-    "static/js/2.87310e68.chunk.js.map": "/KurtisPacePortfolio/static/js/2.87310e68.chunk.js.map",
+    "static/js/2.b459c143.chunk.js": "/KurtisPacePortfolio/static/js/2.b459c143.chunk.js",
+    "static/js/2.b459c143.chunk.js.map": "/KurtisPacePortfolio/static/js/2.b459c143.chunk.js.map",
     "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.b2fe5216827235e6754617bbd35c05be.js": "/KurtisPacePortfolio/precache-manifest.b2fe5216827235e6754617bbd35c05be.js",
+    "precache-manifest.75d8e96192629495f04445d9d98513e3.js": "/KurtisPacePortfolio/precache-manifest.75d8e96192629495f04445d9d98513e3.js",
     "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
-    "static/css/main.b8528a5d.chunk.css.map": "/KurtisPacePortfolio/static/css/main.b8528a5d.chunk.css.map",
+    "static/css/main.3b7a7fe2.chunk.css.map": "/KurtisPacePortfolio/static/css/main.3b7a7fe2.chunk.css.map",
     "static/media/DU-certificate.png": "/KurtisPacePortfolio/static/media/DU-certificate.fdc0a5bd.png",
     "static/media/DU-logo.jpg": "/KurtisPacePortfolio/static/media/DU-logo.91afde0a.jpg",
+    "static/media/Pong.png": "/KurtisPacePortfolio/static/media/Pong.6583475d.png",
+    "static/media/Ticketmaster-Search.png": "/KurtisPacePortfolio/static/media/Ticketmaster-Search.a3109d65.png",
+    "static/media/burger-ss1.png": "/KurtisPacePortfolio/static/media/burger-ss1.3cbbba09.png",
     "static/media/fullsail.png": "/KurtisPacePortfolio/static/media/fullsail.4505d854.png",
-    "static/media/sequelize-burger-ss1.png": "/KurtisPacePortfolio/static/media/sequelize-burger-ss1.3cbbba09.png",
     "static/media/temp-profilepic.jpg": "/KurtisPacePortfolio/static/media/temp-profilepic.d1d1ec14.jpg"
   }
 }
