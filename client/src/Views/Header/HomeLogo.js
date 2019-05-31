@@ -6,6 +6,7 @@
 
 import React from "react"
 import Navbar from "react-bootstrap/Navbar"
+import "../../styles/header.css";
 
 function HomeLogo() {
 
@@ -20,7 +21,7 @@ function HomeLogo() {
           alt="Kurtis Pace"
         />
       </Navbar.Brand>
-      <span style={{ paddingTop: "10px", float: "left" }} >Kurtis Pace</span>
+      <span className = "mobileHeading" style={{ paddingTop: "10px", float: "left" }} >Kurtis Pace</span>
     </>
   );
 }

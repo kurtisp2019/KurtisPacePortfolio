@@ -21,18 +21,25 @@ class Home extends Component {
     render() {
         var jsx = <></>;
 
-        if (this.props.windowWidth < 768) {
-            jsx = <>
+        jsx = <>
                 <Title />
                 <AboutMe />
                 <Education />
                 <RecentProjects/>
                 <ContactMe />
             </>;
-        }
-        else {
-            jsx = <p>Desktop Home Page</p>
-        }
+        // if (this.props.windowWidth < 768) {
+        //     jsx = <>
+        //         <Title />
+        //         <AboutMe />
+        //         <Education />
+        //         <RecentProjects/>
+        //         <ContactMe />
+        //     </>;
+        // }
+        // else {
+        //     jsx = <p>Desktop Home Page</p>
+        // }
         return jsx;
     }
 }

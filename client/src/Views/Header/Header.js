@@ -18,13 +18,6 @@ class Header extends Component {
         m_bCollapsedMenuExpanded: false
     }
 
-    componentDidMount() { 
-
-    }
-
-    componentWillUnmount() {
-    }
-
     getJSXHeaderDesktopLinks() {
         return <header>
             <div className="header">
@@ -69,13 +62,11 @@ class Header extends Component {
         var jsx = <></>;
         
         if (this.props.windowWidth > 768) {
-
             
             jsx = this.getJSXHeaderDesktopLinks(); 
         }
         else { 
             jsx = this.getJSXHeaderCollapsedLinks(); 
-           // jsx = this.getJSXHeaderDivLinks();
         }
         return jsx;
 

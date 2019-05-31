@@ -4,14 +4,15 @@
  * 
  */
 
-import React from "react"
-import Nav from "react-bootstrap/Nav"
+import React from "react";
+import Nav from "react-bootstrap/Nav";
+import "../../styles/header.css";
 
 function Navs() {
 
     return (
         <>
-            <Nav className="justify-content-end" activeKey="/home">
+            <Nav className="justify-content-end mobileHeading" activeKey="/home">
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/">Home</Nav.Link>
                 </Nav.Item>
