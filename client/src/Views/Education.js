@@ -5,9 +5,12 @@
  * 
  */
 
-import React from "react"
+import React, { Component} from "react"
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight";
 
-function  Education() { 
+class  Education extends Component { 
+
+    render() {
 
         return (
             <div style={{
@@ -17,7 +20,6 @@ function  Education() {
                 paddingBottom: "40px",
                 textAlign: "center",
                 backgroundColor: "lightblue",
-                height: "100vh"
             }}>
                 <p style={{ paddingTop: "30px", fontWeight: "bolder", fontSize: "45px" }}>Education</p>
                 <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
@@ -39,8 +41,8 @@ function  Education() {
                 </div>
             </div>
         );
-    
+    }
 }
 //
 
-export default Education;
+export default AddClientWidthAndHeight( Education);
