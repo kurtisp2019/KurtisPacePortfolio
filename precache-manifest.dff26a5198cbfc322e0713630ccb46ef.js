@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4e905e5b5a37fd3bf2b87b1ee6dbac5",
+    "revision": "8a0784a15f94e4af871c0b99657d4028",
     "url": "/KurtisPacePortfolio/index.html"
   },
   {
-    "revision": "3d61b89eb4bbb50ed564",
+    "revision": "391f89b1a87b918f2940",
     "url": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css"
   },
   {
-    "revision": "0dfe0671b1db76486974",
-    "url": "/KurtisPacePortfolio/static/css/main.bc720d21.chunk.css"
+    "revision": "0855ca5eddf9def27504",
+    "url": "/KurtisPacePortfolio/static/css/main.aeaf9642.chunk.css"
   },
   {
-    "revision": "3d61b89eb4bbb50ed564",
-    "url": "/KurtisPacePortfolio/static/js/2.bbaa0d32.chunk.js"
+    "revision": "391f89b1a87b918f2940",
+    "url": "/KurtisPacePortfolio/static/js/2.5e6f9377.chunk.js"
   },
   {
-    "revision": "0dfe0671b1db76486974",
-    "url": "/KurtisPacePortfolio/static/js/main.4d8a87d3.chunk.js"
+    "revision": "0855ca5eddf9def27504",
+    "url": "/KurtisPacePortfolio/static/js/main.2160aaca.chunk.js"
   },
   {
     "revision": "7aa51fd1649ffd4afb1e",
