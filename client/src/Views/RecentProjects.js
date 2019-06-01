@@ -96,18 +96,17 @@ class RecentProjects extends Component {
     // link 
     // link to github
     render() {
-        let i = 1;
         return (
             <>
 
 
-                <div style={{ opacity: this.state.opacity, textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", paddingBottom: "25px", backgroundColor: "orange" }}>
+                <div style={{ height: "1075px", opacity: this.state.opacity, textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", paddingBottom: "25px", backgroundColor: "orange" }}>
                     <p style={{ textAlign: "center", fontWeight: "bolder", fontSize: "45px" }}>Recent Projects</p>
                     <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
 
 
                                   <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
-                                <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{i++}. "{this.m_Projects[this.state.m_curProject].title}"</p>
+                                <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{this.state.m_curProject+1}. "{this.m_Projects[this.state.m_curProject].title}"</p>
                                 <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
 
                                 <p style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {this.m_Projects[this.state.m_curProject].description} </p>
@@ -118,9 +117,12 @@ class RecentProjects extends Component {
                                 <p >link to github code</p>
                                 <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].websiteLink}>{this.m_Projects[this.state.m_curProject].websiteLink}</a></p>
           
-                    <div style={{ height: "250px" }}>
-                        <img onClick={this.prevProject}  className="scaleImg" style={{ width: "350px", height: "250px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-                        <img  onClick={this.nextProject} className="flippedImg " style={{ width: "350px", height: "250px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                    <br></br>
+                    <div style={{ height: "75px" }}>
+                        <img onClick={this.prevProject}  className="scaleImg" style={{ bottom: "-100px", marginLeft:"120px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                        <img  onClick={this.nextProject} className="flippedImg " style={{ bottom: "-100px", marginLeft: "105px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                        <label style={{ bottom: "-120px", marginLeft: "25px",  position: "absolute"  }}>Next</label>
+                        <label style={{ bottom: "-120px", marginLeft: "-75px",  position: "absolute"  }}>Previous</label>
                     </div>
                     {/* {this.m_Projects.map(_project => {
                         return (
