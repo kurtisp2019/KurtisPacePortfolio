@@ -6,6 +6,7 @@
 
 import React, { Component } from "react"
 import "../styles/images.css";
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
 
 var Project = function (_imgURL, _title, _desc, _githubLink, _websiteLink) {
 
@@ -71,23 +72,48 @@ class RecentProjects extends Component {
 
         requestAnimationFrame(this.update);
 
-     }
+    }
 
     nextProject = () => {
-       
-        if (this.state.m_curProject < this.m_Projects.length-1)
-             this.setState({ m_curProject: this.state.m_curProject + 1 });
+
+        if (this.state.m_curProject < this.m_Projects.length - 1)
+            this.setState({ m_curProject: this.state.m_curProject + 1 });
         // if (this.state.m_curProject === this.m_Projects.length)
         //     this.setState({ m_curProject: 0 });
-        
+
     }
     prevProject = () => {
         if (this.state.m_curProject > 0)
-        this.setState({ m_curProject: this.state.m_curProject - 1 });
+            this.setState({ m_curProject: this.state.m_curProject - 1 });
         // if (this.state.m_curProject < 0)
         //     this.setState({ m_curProject: this.m_Projects.length - 1 });
 
-        
+
+    }
+
+    getProjectPageArrowButtons() {
+        return ( <>
+         <div style={{ marginLeft: "200px" }}>
+                            <img onClick={this.prevProject} className="scaleImg" style={{ bottom: "-85px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                        </div>
+                        {/* <img onClick={this.prevProject}  className="scaleImg" style={{ bottom: "-100px", marginLeft:"120px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" /> */}
+                        <div style={{ marginLeft: "250px" }}>
+                        <img onClick={this.nextProject} className="flippedImg " style={{ bottom: "-85px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                        </div>
+                        <label style={{ bottom: "-120px", marginLeft: "50px", position: "absolute" }}>Next</label>
+                      <label style={{ bottom: "-120px", marginLeft: "-100px", position: "absolute" }}>Previous</label>
+        </>);
+    }
+
+    getHomePageArrowButtons() {
+        return (<>
+            <div style = {{positon: "relative"}}>
+            <img onClick={this.prevProject} className="scaleImg" style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+            <img onClick={this.nextProject} className="flippedImg " style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+            <label style={{ marginTop: "110px", marginLeft: "-85px", position: "absolute" }}>Previous</label>
+            <label style={{ marginTop: "110px", marginLeft: "30px", position: "absolute" }}>Next</label>
+            </div>
+        </>);
     }
 
     // 3 screenshots
@@ -105,46 +131,27 @@ class RecentProjects extends Component {
                     <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
 
 
-                                  <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
-                                <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{this.state.m_curProject+1}. "{this.m_Projects[this.state.m_curProject].title}"</p>
-                                <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
+                    <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
+                    <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{this.state.m_curProject + 1}. "{this.m_Projects[this.state.m_curProject].title}"</p>
+                    <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
 
-                                <p style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {this.m_Projects[this.state.m_curProject].description} </p>
-                                <br></br>
-                                <p>link to actual site:</p>
-                                <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].githubLink}>{this.m_Projects[this.state.m_curProject].githubLink}</a></p>
-                                <br></br>
-                                <p >link to github code</p>
-                                <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].websiteLink}>{this.m_Projects[this.state.m_curProject].websiteLink}</a></p>
-          
+                    <p style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {this.m_Projects[this.state.m_curProject].description} </p>
                     <br></br>
-                    <div style={{ height: "75px" }}>
-                        <img onClick={this.prevProject}  className="scaleImg" style={{ bottom: "-100px", marginLeft:"120px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-                        <img  onClick={this.nextProject} className="flippedImg " style={{ bottom: "-100px", marginLeft: "105px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-                        <label style={{ bottom: "-120px", marginLeft: "25px",  position: "absolute"  }}>Next</label>
-                        <label style={{ bottom: "-120px", marginLeft: "-75px",  position: "absolute"  }}>Previous</label>
+                    <p>link to actual site:</p>
+                    <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].githubLink}>{this.m_Projects[this.state.m_curProject].githubLink}</a></p>
+                    <br></br>
+                    <p >link to github code</p>
+                    <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].websiteLink}>{this.m_Projects[this.state.m_curProject].websiteLink}</a></p>
+
+                    <br></br>
+                    <div>
+                        {this.getHomePageArrowButtons()}
                     </div>
-                    {/* {this.m_Projects.map(_project => {
-                        return (
-                            <>
-                                <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={_project.imgURL} alt="screenshot" />
-                                <p key={_project.title} style={{ paddingTop: "10px", fontSize: "35px" }}>{i++}. "{_project.title}"</p>
-                                <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
-
-                                <p key={_project.description} style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {_project.description} </p>
-                                <br></br>
-                                <p>link to actual site:</p>
-                                <p key={_project.githubLink} style={{ fontSize: "20px", marginTop: "3px" }}><a href={_project.githubLink}>{_project.githubLink}</a></p>
-                                <br></br>
-                                <p >link to github code</p>
-                                <p key={_project.websiteLink} style={{ fontSize: "20px", marginTop: "3px" }}><a href={_project.websiteLink}>{_project.websiteLink}</a></p>
-                            </>)
-                    })} */}
-
+            
                 </div>
 
             </>);
     }
 }
 
-export default RecentProjects; 
+export default AddClientWidthAndHeight(RecentProjects); 
