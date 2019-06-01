@@ -107,7 +107,7 @@ class RecentProjects extends Component {
 
     getHomePageArrowButtons() {
         return (<>
-            <div style={{ height: "185px"}}>
+            <div style={{  height: "185px"}}>
                 <div style={{ positon: "relative" }}>
                     <img onClick={this.prevProject} className="scaleImg" style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
                     <img onClick={this.nextProject} className="flippedImg " style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
@@ -128,7 +128,7 @@ class RecentProjects extends Component {
             <>
 
 
-                <div style={{ height: "1075px", opacity: this.state.opacity, textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", paddingBottom: "25px", backgroundColor: "orange" }}>
+                <div style={{  opacity: this.state.opacity, textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", backgroundColor: "orange" }}>
                     <p style={{ textAlign: "center", fontWeight: "bolder", fontSize: "45px" }}>Recent Projects</p>
                     <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
 

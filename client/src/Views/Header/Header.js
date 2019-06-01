@@ -47,10 +47,11 @@ class Header extends Component {
                     <Nav className="mr-auto">
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/">Home</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/projects">Recent Projects</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/resume">Resume</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
