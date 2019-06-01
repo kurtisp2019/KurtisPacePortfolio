@@ -4,16 +4,17 @@
  * 
  */
 
-import React, { Component } from "react"
-import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
+import React, { Component } from "react";
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight";
 
 // pages
-import AboutMe from "./AboutMe"
-import ContactInfo from "./Contact/ContactInfo"
-import ContactMe from "./Contact/ContactMe"
-import Education from "./Education"
-import Title from "./Title"
-import RecentProjects from "./RecentProjects"
+import AboutMe from "./AboutMe";
+import ContactInfo from "./Contact/ContactInfo";
+import ContactMe from "./Contact/ContactMe";
+import Education from "./Education";
+import Title from "./Title";
+import RecentProjects from "./RecentProjects";
+import WorkExperience from "./WorkExperience";
 
 class Home extends Component {
 
@@ -25,7 +26,8 @@ class Home extends Component {
                 <Title />
                 <AboutMe />
                 <Education />
-                <RecentProjects/>
+            <RecentProjects />
+            <WorkExperience/>
                 <ContactMe />
             </>;
         // if (this.props.windowWidth < 768) {
