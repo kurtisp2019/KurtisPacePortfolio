@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from "react"
+import "../styles/images.css";
 
 var Project = function (_imgURL, _title, _desc, _githubLink, _websiteLink) {
 
@@ -21,10 +22,17 @@ class RecentProjects extends Component {
 
     state = {
 
+        opacity: 1.0,
+        m_curProject: 0
+
     };
+
+
 
     componentWillMount() {
         this.addProjects();
+
+        //requestAnimationFrame(this.update);
     }
 
     addProjects() {
@@ -57,21 +65,64 @@ class RecentProjects extends Component {
 
     }
 
+    update = () => {
+
+        console.log("updating");
+
+        requestAnimationFrame(this.update);
+
+     }
+
+    nextProject = () => {
+       
+        if (this.state.m_curProject < this.m_Projects.length-1)
+             this.setState({ m_curProject: this.state.m_curProject + 1 });
+        // if (this.state.m_curProject === this.m_Projects.length)
+        //     this.setState({ m_curProject: 0 });
+        
+    }
+    prevProject = () => {
+        if (this.state.m_curProject > 0)
+        this.setState({ m_curProject: this.state.m_curProject - 1 });
+        // if (this.state.m_curProject < 0)
+        //     this.setState({ m_curProject: this.m_Projects.length - 1 });
+
+        
+    }
+
     // 3 screenshots
     // title
     // description
     // link 
     // link to github
     render() {
-        var i = 1;
+        let i = 1;
         return (
             <>
-                <div style={{ textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", paddingBottom: "25px", backgroundColor: "orange" }}>
+
+
+                <div style={{ opacity: this.state.opacity, textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", paddingBottom: "25px", backgroundColor: "orange" }}>
                     <p style={{ textAlign: "center", fontWeight: "bolder", fontSize: "45px" }}>Recent Projects</p>
                     <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
 
 
-                    {this.m_Projects.map(_project => {
+                                  <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
+                                <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{i++}. "{this.m_Projects[this.state.m_curProject].title}"</p>
+                                <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
+
+                                <p style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {this.m_Projects[this.state.m_curProject].description} </p>
+                                <br></br>
+                                <p>link to actual site:</p>
+                                <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].githubLink}>{this.m_Projects[this.state.m_curProject].githubLink}</a></p>
+                                <br></br>
+                                <p >link to github code</p>
+                                <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].websiteLink}>{this.m_Projects[this.state.m_curProject].websiteLink}</a></p>
+          
+                    <div style={{ height: "250px" }}>
+                        <img onClick={this.prevProject}  className="scaleImg" style={{ width: "350px", height: "250px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                        <img  onClick={this.nextProject} className="flippedImg " style={{ width: "350px", height: "250px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                    </div>
+                    {/* {this.m_Projects.map(_project => {
                         return (
                             <>
                                 <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={_project.imgURL} alt="screenshot" />
@@ -86,7 +137,7 @@ class RecentProjects extends Component {
                                 <p >link to github code</p>
                                 <p key={_project.websiteLink} style={{ fontSize: "20px", marginTop: "3px" }}><a href={_project.websiteLink}>{_project.websiteLink}</a></p>
                             </>)
-                    })}
+                    })} */}
 
                 </div>
 
