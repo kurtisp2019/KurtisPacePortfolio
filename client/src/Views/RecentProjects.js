@@ -107,11 +107,13 @@ class RecentProjects extends Component {
 
     getHomePageArrowButtons() {
         return (<>
-            <div style = {{positon: "relative"}}>
-            <img onClick={this.prevProject} className="scaleImg" style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-            <img onClick={this.nextProject} className="flippedImg " style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-            <label style={{ marginTop: "110px", marginLeft: "-85px", position: "absolute" }}>Previous</label>
-            <label style={{ marginTop: "110px", marginLeft: "30px", position: "absolute" }}>Next</label>
+            <div style={{ height: "185px"}}>
+                <div style={{ positon: "relative" }}>
+                    <img onClick={this.prevProject} className="scaleImg" style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                    <img onClick={this.nextProject} className="flippedImg " style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                    <label style={{ marginTop: "110px", marginLeft: "-85px", position: "absolute" }}>Previous</label>
+                    <label style={{ marginTop: "110px", marginLeft: "30px", position: "absolute" }}>Next</label>
+                </div>
             </div>
         </>);
     }
