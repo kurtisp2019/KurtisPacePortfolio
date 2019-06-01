@@ -9,7 +9,7 @@ import HomeLogo from "./HomeLogo"
 import { BrowserRouter as Router, Link } from "react-router-dom"
 import Navs from "./Navs"
 
-import { Nav, Navbar, NavDropdown, Button, Form , FormControl } from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import AddClientWidthAndHeight from "../../Higher Order Components/AddClientWidthAndHeight"
 
 class Header extends Component {
@@ -50,7 +50,6 @@ class Header extends Component {
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/projects">Recent Projects</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
                         <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/resume">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>

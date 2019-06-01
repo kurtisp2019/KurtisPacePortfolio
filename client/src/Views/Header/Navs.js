@@ -16,21 +16,23 @@ function Navs() {
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/">Home</Nav.Link>
                 </Nav.Item>
+                
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/projects">Projects</Nav.Link>
                 </Nav.Item>
+
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
                 </Nav.Item>
+
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
                 </Nav.Item>
+
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/resume">Resume</Nav.Link>
                 </Nav.Item>
-                <Nav.Item>
-                    <Nav.Link href="/KurtisPacePortfolio/#/skills">Skills</Nav.Link>
-                </Nav.Item>
+          
                 <Nav.Item>
                     <Nav.Link href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
                 </Nav.Item>

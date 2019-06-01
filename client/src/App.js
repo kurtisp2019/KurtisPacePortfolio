@@ -11,7 +11,6 @@ import RecentProjects from "./Views/RecentProjects"
 import Contact from "./Views/Contact/Contact"
 import WorkExperience from "./Views/WorkExperience"
 import Resume from "./Views/Resume"
-import Skills from "./Views/Skills"
 import PageNotFound from "./Views/PageNotFound"
 
 // import components
@@ -44,7 +43,6 @@ function App() {
           <Route exact path="/contact"  headerMenuIsCollapsed={headerMenuIsCollapsed} component={Contact} />
           <Route exact path="/workexperience" component={WorkExperience} />
           <Route exact path="/resume" component={Resume} />
-          <Route exact path="/skills" component={Skills} />
           <Route component={PageNotFound} />
 
       </Switch>
