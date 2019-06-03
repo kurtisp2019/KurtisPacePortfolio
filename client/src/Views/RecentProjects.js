@@ -231,7 +231,7 @@ class RecentProjects extends Component {
 
                     <div style={{ opacity: this.state.opacity }}>
                         <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
-                        <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{this.state.m_curProject + 1}. "{this.m_Projects[this.state.m_curProject].title}"</p>
+                        <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{this.state.m_curProject + 1} of {this.m_Projects.length} "{this.m_Projects[this.state.m_curProject].title}"</p>
                         <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
 
                         <p style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {this.m_Projects[this.state.m_curProject].description} </p>
