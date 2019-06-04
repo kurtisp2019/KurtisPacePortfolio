@@ -12,7 +12,7 @@ function HomeLogo() {
 
   return (
     <>
-      <Navbar.Brand style={{ marginLeft: "10px", float: "left" }} href="/">
+      <Navbar.Brand style={{ marginLeft: "10px", float: "left" }} href="/KurtisPacePortfolio/#/">
         <img
           src={require("../../resources/images/computer-icon.jpg")}
           width="40"
