@@ -24,7 +24,7 @@ function WorkExperience() {
                 <p style={{ fontWeight: "bold", fontSize: "20px", paddingTop: "10px" }}>October 2011 - February 2012</p>
                 <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "100px" }}></hr>
                 <p style={{ marginLeft: "5vw", marginRight: "5vw", paddingTop: "25px", fontSize: "25px", paddingBottom: "25px" }}>
-                    During this internship I learned how to build websites using C# and ASP.NET.  I lead a team of 3 people on a project called 
+                    During this internship I learned how to build websites using C# and ASP.NET.  I led a team of 3 people on a project called 
                     "Garage Sale Blitzer" that allowed users to post and search for local garage sales in their area.  I was also responsible for
                     ghosting all of our computers at the end of the day with fresh copies of Windows and MS SQL 2008.  
 

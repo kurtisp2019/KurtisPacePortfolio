@@ -22,7 +22,7 @@ function AboutMe() {
                 languages like <span style={{ fontSize: "26px", fontWeight: "bold" }}> Asembly x86, XML, HLSL, and GLSL. </span> 
                 <br></br>    
                 <br></br>    
-                    Afterwards I had an 4 month web development internship with a company called GetWebEdge where I learned some
+                    Afterwards, I had an 4 month web development internship with a company called GetWebEdge where I learned some
                 <span style={{ fontSize: "26px", fontWeight: "bold" }}> ASP.NET </span> based web dev.  
                     
                 <br></br>    
