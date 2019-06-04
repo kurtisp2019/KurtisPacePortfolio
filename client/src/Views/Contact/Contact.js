@@ -27,8 +27,6 @@ class  Contact extends Component {
                 {/* <div className = "background"> */}
                 <div className = "background" style={{ marginTop: (this.props.windowHeight / 2) - headerBufferMobile }}>
          
-                <p>Client Height: {this.props.windowHeight}</p>
-                <p>Client Width: {this.props.windowWidth}</p>
                     <ContactInfo />
                
                     <p style={{ textAlign: "center", fontSize: "45px", fontStyle: "italic" }}>OR</p>
