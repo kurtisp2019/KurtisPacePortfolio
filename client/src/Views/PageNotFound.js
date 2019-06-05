@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import "../styles/mainLayout.css";
  
 function PageNotFound() { 
     return (

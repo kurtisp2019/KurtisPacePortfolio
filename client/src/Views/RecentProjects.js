@@ -5,6 +5,7 @@
  */
 
 import React, { Component } from "react"
+import "../styles/mainLayout.css";
 import "../styles/images.css";
 import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
 

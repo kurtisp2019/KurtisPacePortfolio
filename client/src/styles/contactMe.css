@@ -1,0 +1,24 @@
+/*
+    contactMe.css
+*/
+
+.contactMeInput{
+    margin-top: 5px;
+    height: 50px;
+    width: 100%;
+}
+
+.contactMeTextArea {
+    margin-top: 5px;
+    width: 100%;
+    height: 200px;
+}
+
+.contactMeBtn {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #2096f3;
+}

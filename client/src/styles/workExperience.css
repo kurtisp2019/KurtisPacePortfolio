@@ -1,0 +1,43 @@
+/*
+    work experience.css
+*/
+
+.jobTitle {
+    font-weight: bold;
+     font-size: 30px;
+      padding-top: 25px;
+}
+
+.jobPosition {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.jobDates {
+    font-weight: bold;
+     font-size: 20px;
+      padding-top: 10px;
+
+}
+
+.jobTitleDiv {
+    margin-top: 20px;
+    background-color: #285172;
+    border-width: 3;
+    width: 100px;
+
+}
+
+.jobDesc {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    padding-top: 25px;
+    font-size: 25px;
+    padding-bottom: 25px;
+
+}
+
+.workExpMainContent {
+    height: 100vh;
+}

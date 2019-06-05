@@ -1,0 +1,40 @@
+/*
+    workExperience.css
+*/
+
+.mainContent{
+    text-align: center;
+    color: #285172;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
+.mainContentDivider {
+    margin-top: 20px;
+    background-color: #285172;
+    width: 300px;
+    padding-bottom: 3px;
+}
+
+.title {
+    text-align: center;
+     font-weight: bolder;
+      font-size: 45px;
+}
+
+.resumeBackgroundColor {
+    background-color: smokewhite;
+
+}
+
+.workExpBackgroundColor {
+    background-color: lightgreen;
+
+}
+
+.contactMeBackgroundColor {
+    background-color: white;
+}

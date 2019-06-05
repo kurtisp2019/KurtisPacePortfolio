@@ -8,36 +8,26 @@ import React, { Component } from "react"
 import AddClientWidthAndHeight from "../../Higher Order Components/AddClientWidthAndHeight"
 import ContactInfo from "./ContactInfo";
 import ContactMe from "./ContactMe";
-import  "../../styles/contact.css"
+import "../../styles/mainLayout.css";
+import "../../styles/contact.css"
 
-class  Contact extends Component {
-    
+class Contact extends Component {
+
 
     render() {
 
-        var headerBufferMobile = 0.0;
-        if (this.props.headerMenuIsCollapsed)
-            headerBufferMobile = 30.0; // 30 pixels the size of the header links, 7 the number of header links
-        else
-            headerBufferMobile = 30.0 * 7.0;
-
         return (
             <>
-               
-                {/* <div className = "background"> */}
-                <div className = "background" style={{ marginTop: (this.props.windowHeight / 2) - headerBufferMobile }}>
-         
+                <div style={{ paddingTop: "100px" }}>
                     <ContactInfo />
-               
-                    <p style={{ textAlign: "center", fontSize: "45px", fontStyle: "italic" }}>OR</p>
+
+                    <p style={{ textAlign: "center", fontSize: "45px", fontStyle: "italic", color: "#2096f3" }}>OR</p>
 
                     <ContactMe />
-
-
-                    </div>
+                </div>
             </>
         );
     }
 };
 
-export default AddClientWidthAndHeight( Contact);
+export default AddClientWidthAndHeight(Contact);

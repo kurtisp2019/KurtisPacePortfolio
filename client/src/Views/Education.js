@@ -7,6 +7,7 @@
 
 import React, { Component } from "react"
 import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight";
+import "../styles/mainLayout.css";
 
 class Education extends Component {
 

@@ -6,6 +6,8 @@
 
 import React from "react"
 import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
+import "../styles/mainLayout.css";
+
 function AboutMe() { 
 
     return(
