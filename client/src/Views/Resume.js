@@ -14,7 +14,7 @@ function Resume() {
         <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
 
             <object data={require("../resources/images/kurtis-pace-resume-2019.pdf")} type="application/pdf" width="400px" height="1100px">
-                <a href= "https://github.com/kurtisp2019/Resume-2019/blob/master/Kurtis.Pace.Resume.2019.pdf">Link to Resume -></a>
+                <a style={{color: "blue"}} href= "https://github.com/kurtisp2019/Resume-2019/blob/master/Kurtis.Pace.Resume.2019.pdf">Link to Resume -></a>
                 </object>
         </div>
     );
