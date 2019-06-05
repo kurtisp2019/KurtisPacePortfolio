@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/KurtisPacePortfolio/static/css/main.8a09b3b1.chunk.css",
-    "main.js": "/KurtisPacePortfolio/static/js/main.e131d205.chunk.js",
-    "main.js.map": "/KurtisPacePortfolio/static/js/main.e131d205.chunk.js.map",
+    "main.js": "/KurtisPacePortfolio/static/js/main.974d8f8d.chunk.js",
+    "main.js.map": "/KurtisPacePortfolio/static/js/main.974d8f8d.chunk.js.map",
     "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
     "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
     "static/js/2.540f0704.chunk.js": "/KurtisPacePortfolio/static/js/2.540f0704.chunk.js",
     "static/js/2.540f0704.chunk.js.map": "/KurtisPacePortfolio/static/js/2.540f0704.chunk.js.map",
     "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.1d8cfbca2e51ab86037dcd2d4c7bfebd.js": "/KurtisPacePortfolio/precache-manifest.1d8cfbca2e51ab86037dcd2d4c7bfebd.js",
+    "precache-manifest.0cdf364b3d785c28602439dd1568cf80.js": "/KurtisPacePortfolio/precache-manifest.0cdf364b3d785c28602439dd1568cf80.js",
     "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
     "static/css/main.8a09b3b1.chunk.css.map": "/KurtisPacePortfolio/static/css/main.8a09b3b1.chunk.css.map",
@@ -20,7 +20,7 @@
     "static/media/burger-ss1.png": "/KurtisPacePortfolio/static/media/burger-ss1.3cbbba09.png",
     "static/media/fullsail.png": "/KurtisPacePortfolio/static/media/fullsail.4505d854.png",
     "static/media/getWebEdge.png": "/KurtisPacePortfolio/static/media/getWebEdge.29fafec3.png",
-    "static/media/kurtis-pace-resume-2019.pdf": "/KurtisPacePortfolio/static/media/kurtis-pace-resume-2019.0460f86d.pdf",
+    "static/media/kurtis-pace-resume-2019.pdf": "/KurtisPacePortfolio/static/media/kurtis-pace-resume-2019.7fbc79e2.pdf",
     "static/media/temp-profilepic.jpg": "/KurtisPacePortfolio/static/media/temp-profilepic.d1d1ec14.jpg"
   }
 }

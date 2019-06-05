@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1ec43532256ab88d56bcf9388a11c56b",
+    "revision": "04a94743a830b1167c9ecfd6f65825f5",
     "url": "/KurtisPacePortfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css"
   },
   {
-    "revision": "42787c2e5c344cf1b625",
+    "revision": "7b65c1646bc2590a0302",
     "url": "/KurtisPacePortfolio/static/css/main.8a09b3b1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KurtisPacePortfolio/static/js/2.540f0704.chunk.js"
   },
   {
-    "revision": "42787c2e5c344cf1b625",
-    "url": "/KurtisPacePortfolio/static/js/main.e131d205.chunk.js"
+    "revision": "7b65c1646bc2590a0302",
+    "url": "/KurtisPacePortfolio/static/js/main.974d8f8d.chunk.js"
   },
   {
     "revision": "7aa51fd1649ffd4afb1e",
@@ -52,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/KurtisPacePortfolio/static/media/getWebEdge.29fafec3.png"
   },
   {
-    "revision": "0460f86da1dc022403af97664ea5ecee",
-    "url": "/KurtisPacePortfolio/static/media/kurtis-pace-resume-2019.0460f86d.pdf"
+    "revision": "7fbc79e2d228de93d3526d7ac8f0733d",
+    "url": "/KurtisPacePortfolio/static/media/kurtis-pace-resume-2019.7fbc79e2.pdf"
   },
   {
     "revision": "d1d1ec1498801dc01686293d7b34dd52",
