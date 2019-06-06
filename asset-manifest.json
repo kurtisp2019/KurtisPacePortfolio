@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/KurtisPacePortfolio/static/css/main.5c608c09.chunk.css",
-    "main.js": "/KurtisPacePortfolio/static/js/main.df2c9388.chunk.js",
-    "main.js.map": "/KurtisPacePortfolio/static/js/main.df2c9388.chunk.js.map",
+    "main.css": "/KurtisPacePortfolio/static/css/main.460bfce7.chunk.css",
+    "main.js": "/KurtisPacePortfolio/static/js/main.05f9c1ef.chunk.js",
+    "main.js.map": "/KurtisPacePortfolio/static/js/main.05f9c1ef.chunk.js.map",
     "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
     "runtime~main.js.map": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css",
-    "static/js/2.7994039d.chunk.js": "/KurtisPacePortfolio/static/js/2.7994039d.chunk.js",
-    "static/js/2.7994039d.chunk.js.map": "/KurtisPacePortfolio/static/js/2.7994039d.chunk.js.map",
+    "static/js/2.110c5ae4.chunk.js": "/KurtisPacePortfolio/static/js/2.110c5ae4.chunk.js",
+    "static/js/2.110c5ae4.chunk.js.map": "/KurtisPacePortfolio/static/js/2.110c5ae4.chunk.js.map",
     "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.e50ea2e83b8e0b3f8878b9328f99ac3a.js": "/KurtisPacePortfolio/precache-manifest.e50ea2e83b8e0b3f8878b9328f99ac3a.js",
+    "precache-manifest.865ceaff1fd3dc941e15633a62912b53.js": "/KurtisPacePortfolio/precache-manifest.865ceaff1fd3dc941e15633a62912b53.js",
     "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
-    "static/css/main.5c608c09.chunk.css.map": "/KurtisPacePortfolio/static/css/main.5c608c09.chunk.css.map",
+    "static/css/main.460bfce7.chunk.css.map": "/KurtisPacePortfolio/static/css/main.460bfce7.chunk.css.map",
     "static/media/DU-certificate.png": "/KurtisPacePortfolio/static/media/DU-certificate.fdc0a5bd.png",
     "static/media/DU-logo.jpg": "/KurtisPacePortfolio/static/media/DU-logo.91afde0a.jpg",
     "static/media/Pong.png": "/KurtisPacePortfolio/static/media/Pong.6583475d.png",
@@ -20,7 +20,7 @@
     "static/media/burger-ss1.png": "/KurtisPacePortfolio/static/media/burger-ss1.3cbbba09.png",
     "static/media/fullsail.png": "/KurtisPacePortfolio/static/media/fullsail.4505d854.png",
     "static/media/getWebEdge.png": "/KurtisPacePortfolio/static/media/getWebEdge.29fafec3.png",
-    "static/media/kp-profile-pic.jpg": "/KurtisPacePortfolio/static/media/kp-profile-pic.99d17afe.jpg",
+    "static/media/kp-profile-pic.jpg": "/KurtisPacePortfolio/static/media/kp-profile-pic.3772d1d6.jpg",
     "static/media/kurtis-pace-resume-2019.pdf": "/KurtisPacePortfolio/static/media/kurtis-pace-resume-2019.7fbc79e2.pdf"
   }
 }
