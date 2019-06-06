@@ -11,7 +11,7 @@ function Title() {
     return (
         <>
             <div style={{ paddingLeft: "5vw", paddingRight: "5vw", fontFamily: "'Montserrat', sans-serif", paddingTop: "25px", paddingBottom: "25px", lineHeight: "1.5", textAlign: "center", backgroundColor: "#2096f3" }}>
-            <img style={{ border: "1px solid white", width: "240px", height: "320px", marginBottom: "25px"}} src={require("../resources/images/temp-profilepic.jpg")} alt="temp pic"></img>
+            <img style={{ border: "1px solid white", width: "240px", height: "320px", marginBottom: "25px"}} src={require("../resources/images/kp-profile-pic.jpg")} alt="temp pic"></img>
                 <p style={{ fontSize: "45px", color: "white" }}>Kurtis Pace</p>
                 <hr style={{backgroundColor: "white", borderWidth: 3, width: "170px"}}></hr>
                 <p style={{ fontSize: "25px", color: "white" }}>Junior Web and Game Developer</p>
