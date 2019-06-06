@@ -1,0 +1,37 @@
+/*
+    education.css
+*/
+
+.educationBackgrounColor {
+    background-color: lightblue;
+}
+
+.schoolLogoImg {
+
+    border: 1px solid black;
+    margin-top: 25px;
+    width: 150px;
+    height: 100px;
+}
+
+.schoolTitle {
+    font-size: 35px;
+    padding-top: 25px;
+}
+
+.schoolTitleDiv {
+    margin-top: 20px;
+    background-color: #285172;
+    height: 2px;
+    width: 100px;
+}
+
+.levelOfAchievement {
+    font-size: 25px;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+.schoolWebsiteLink {
+    font-size: 18px;
+    color: blue;
+}

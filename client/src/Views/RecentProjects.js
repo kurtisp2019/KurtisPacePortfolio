@@ -6,7 +6,9 @@
 
 import React, { Component } from "react"
 import "../styles/mainLayout.css";
+import "../styles/recentProjects.css";
 import "../styles/images.css";
+
 import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight"
 
 var Project = function (_imgURL, _title, _desc, _githubLink, _websiteLink) {
@@ -152,22 +154,22 @@ class RecentProjects extends Component {
             pongImg,
             "Pong",
             "This is the game Pong! It is an MVC structured React application that uses Express, MongoDB/Mongoose, and Bootstrap.  It has 1 player, 2 player, practice mode and as well an options menu which allows the user to customize some of the gameplay.  The options are stored in a database using MongoDB and Mongoose and read later when the player enters the game.  It also contains events which occur while playing thats logic is encapsulated inside an event manager.",
-            "https://sgkppong.herokuapp.com/",
-            "https://github.com/kurtisp2019/ReactPong"));
+            "https://github.com/kurtisp2019/ReactPong",
+            "https://sgkppong.herokuapp.com/"));
 
         this.m_Projects.push(new Project(
             burgerImg,
             "Burger",
             "This is a pretty basic MVC structured, node based site that uses a custom ORM, express, mysql, path, and handlebars.It allows the user to add burgers to a list with a boolean called \"devoured\" set to false.  When the user clicks the devour button it flips the bool in the sql database and is displayed in the \"devoured\" list.",
-            "https://burger041319.herokuapp.com/",
-            "https://github.com/kurtisp2019/burger"));
+            "https://github.com/kurtisp2019/burger",
+            "https://burger041319.herokuapp.com/"));
 
         this.m_Projects.push(new Project(
             ticketMasterImg,
             "Ticketmaster Search",
             "This site uses Firebase, Firebase authentification, Google Maps api, and Ticketmasters api to allow the user to search for events.  The user can specify the location theyd like to look into or leave it blank to get all events, the results will be displayed on the map in the center of the home page.  The user can also create an account on Firebase and save events they like to their account and can be viewed on their account page.",
-            "https://kurtisp2019.github.io/Ticketmaster-Search/",
-            "https://github.com/kurtisp2019/Ticketmaster-Search"));
+            "https://github.com/kurtisp2019/Ticketmaster-Search",
+            "https://kurtisp2019.github.io/Ticketmaster-Search/"));
 
 
 
@@ -206,10 +208,10 @@ class RecentProjects extends Component {
         return (<>
             <div style={{ height: "185px" }}>
                 <div style={{ positon: "relative" }}>
-                    <img onClick={this.prevProject} className="scaleImg" style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-                    <img onClick={this.nextProject} className="flippedImg " style={{ marginTop: "25px", marginLeft: "110px", width: "75px", height: "75px", position: "absolute" }} src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
-                    <label style={{ marginTop: "110px", marginLeft: "-85px", position: "absolute" }}>Previous</label>
-                    <label style={{ marginTop: "110px", marginLeft: "30px", position: "absolute" }}>Next</label>
+                    <img onClick={this.prevProject} className="arrowBtnImg scaleImg " src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                    <img onClick={this.nextProject} className="arrowBtnImg flippedImg " src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
+                    <label className = "prevBtnLabel">Previous</label>
+                    <label className = "nextBtnLabel">Next</label>
                 </div>
             </div>
         </>);
@@ -223,25 +225,22 @@ class RecentProjects extends Component {
     render() {
         return (
             <>
-
-
-                <div style={{ textAlign: "center", color: "#285172", fontFamily: "'Montserrat', sans-serif", paddingTop: "40px", backgroundColor: "orange" }}>
-                    <p style={{ textAlign: "center", fontWeight: "bolder", fontSize: "45px" }}>Recent Projects</p>
-                    <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "300px" }}></hr>
-
+                <div className="mainContent recentProjBackgroundColor">
+                    <p className="title">Recent Projects</p>
+                    <hr className="mainContentDivider"></hr>
 
                     <div style={{ opacity: this.state.opacity }}>
-                        <img style={{ width: "350px", height: "250px", paddingTop: "25px" }} src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
-                        <p key={this.m_Projects[this.state.m_curProject].title} style={{ paddingTop: "10px", fontSize: "35px" }}>{this.state.m_curProject + 1} of {this.m_Projects.length} "{this.m_Projects[this.state.m_curProject].title}"</p>
-                        <hr style={{ marginTop: "20px", backgroundColor: "#285172", borderWidth: 3, width: "70px" }}></hr>
+                        <img className="projectImg" src={this.m_Projects[this.state.m_curProject].imgURL} alt="screenshot" />
+                        <p key={this.m_Projects[this.state.m_curProject].title} className="projectTitle">{this.state.m_curProject + 1} of {this.m_Projects.length} "{this.m_Projects[this.state.m_curProject].title}"</p>
+                        <hr className = "projectTitleDiv"></hr>
 
-                        <p style={{ fontSize: "25px", marginLeft: "5vw", marginRight: "5vw" }}> {this.m_Projects[this.state.m_curProject].description} </p>
+                        <p className = "projectDesc"> {this.m_Projects[this.state.m_curProject].description} </p>
                         <br></br>
-                        <p>link to actual site:</p>
-                        <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].githubLink}>{this.m_Projects[this.state.m_curProject].githubLink}</a></p>
+                        <p className="websiteLinkTitle">link to actual site:</p>
+                        <p className = "websiteLink"><a href={this.m_Projects[this.state.m_curProject].websiteLink}>{this.m_Projects[this.state.m_curProject].githubLink}</a></p>
                         <br></br>
-                        <p >link to github code</p>
-                        <p style={{ fontSize: "20px", marginTop: "3px" }}><a href={this.m_Projects[this.state.m_curProject].websiteLink}>{this.m_Projects[this.state.m_curProject].websiteLink}</a></p>
+                        <p className="websiteLinkTitle">link to github code</p>
+                        <p className="websiteLink"><a href={this.m_Projects[this.state.m_curProject].githubLink}>{this.m_Projects[this.state.m_curProject].websiteLink}</a></p>
                     </div>
                     <br></br>
                     <div>

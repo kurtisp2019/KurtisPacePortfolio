@@ -1,0 +1,55 @@
+/*
+        recentProjects.css
+*/
+
+.projectImg{
+    width: 350px;
+    height: 250px;
+    padding-top: 25px;
+
+}
+
+.projectTitle {
+    padding-top: 10px;
+    font-size: 35px;
+}
+
+.projectTitleDiv {
+    margin-top: 20px;
+    background-color: #285172;
+    width: 70px;
+    height: 2px;
+}
+
+.projectDesc {
+    font-size: 25px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.websiteLinkTitle {
+    font-size: 20px;
+}
+.websiteLink {
+    font-size: 20px;
+     margin-top: 3px;
+}
+
+.nextBtnLabel {
+    margin-top: 110px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.prevBtnLabel {
+    margin-top: 110px;
+    margin-left: -85px;
+    position: absolute;
+}
+
+.arrowBtnImg {
+    margin-top: 25px;
+    margin-left: 110px;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+}

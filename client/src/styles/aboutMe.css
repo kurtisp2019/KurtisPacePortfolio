@@ -1,0 +1,17 @@
+/*
+        aboutMe.css
+*/
+
+.aboutMeContent {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.5;
+    font-size: 22px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.keyWord {
+    font-size: 26px;
+    font-weight: bold;
+}

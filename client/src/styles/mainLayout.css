@@ -16,7 +16,7 @@
     margin-top: 20px;
     background-color: #285172;
     width: 300px;
-    padding-bottom: 3px;
+   height: 2px;
 }
 
 .title {
@@ -38,3 +38,12 @@
 .contactMeBackgroundColor {
     background-color: white;
 }
+
+.recentProjBackgroundColor {
+    background-color: orange;
+}
+
+.aboutMeBackgroundColor {
+    background-color: white;
+}
+

@@ -31,8 +31,6 @@ function WorkExperience() {
                     ghosting all of our computers at the end of the day with fresh copies of Windows and MS SQL 2008.
 
                 </p>
-
-
             </div>
 
         </>);
