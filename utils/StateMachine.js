@@ -1,5 +1,0 @@
-/**
- *  
- *      StateMachine.js
- *  
- */
