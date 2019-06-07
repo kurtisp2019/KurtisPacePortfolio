@@ -7,6 +7,7 @@
 import React, { Component } from "react";
 import "../styles/mainLayout.css";
 import "../styles/workExperience.css";
+import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight";
 
 class WorkExperience extends Component{
 
@@ -16,7 +17,7 @@ class WorkExperience extends Component{
 
     render() {
         var szMainContent = "mainContent workExpBackgroundColor";
-        if (this.props.IsHomePage === 0) { 
+        if (this.props.IsHomePage === 0 && this.props.windowWidth > 600) { 
             szMainContent += " ";
             szMainContent += "pageFullHeight";
         }
@@ -43,4 +44,4 @@ class WorkExperience extends Component{
     }
 }
 
-export default WorkExperience;
+export default AddClientWidthAndHeight(WorkExperience);
