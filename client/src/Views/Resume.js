@@ -24,7 +24,7 @@ function Resume() {
             <Button onClick = {goToResume} style={{ fontSize: "20px", marginBottom: "25px"}} variant="success">Link to Resume -></Button>
             
             <object className="resumePDF" data={require("../resources/images/kurtis-pace-resume-2019.pdf")} type="application/pdf">
-            <p>PDF not able to load, please use the link to view my resume.</p>
+                <p style={{height: "100vh"}}>PDF not able to load, please use the link to view my resume.</p>
             </object>
 
         </div>
