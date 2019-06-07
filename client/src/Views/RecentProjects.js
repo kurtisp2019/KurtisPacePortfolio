@@ -206,7 +206,8 @@ class RecentProjects extends Component {
 
     getHomePageArrowButtons() {
         return (<>
-            <div style={{ height: "185px" }}>
+            {/* 125 = 25 marginTop + 25 marginBottom + imageHeight (75px) */}
+            <div style={{ height: "125px" }}> 
                 <div style={{ positon: "relative" }}>
                     <img onClick={this.prevProject} className="arrowBtnImg scaleImg " src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />
                     <img onClick={this.nextProject} className="arrowBtnImg flippedImg " src={require("../resources/images/arrowBtn.png")} alt="arrowImg" />

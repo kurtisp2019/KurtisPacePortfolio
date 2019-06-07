@@ -53,3 +53,7 @@
     height: 75px;
     position: absolute;
 }
+
+.recentProjBackgroundColor {
+    background-color: orange;
+}
