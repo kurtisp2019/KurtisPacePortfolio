@@ -15,7 +15,7 @@ class Education extends Component {
     render() {
 
         var szMainContent = "mainContent educationBackgroundColor";
-        if (this.props.IsHomePage === 0 && this.props.windowWidth > 600) { 
+        if (this.props.IsHomePage === 0) { 
             szMainContent += " ";
             szMainContent += "pageFullHeight";
         }

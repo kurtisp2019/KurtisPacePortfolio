@@ -17,7 +17,7 @@ class WorkExperience extends Component{
 
     render() {
         var szMainContent = "mainContent workExpBackgroundColor";
-        if (this.props.IsHomePage === 0 && this.props.windowWidth > 600) { 
+        if (this.props.IsHomePage === 0) { 
             szMainContent += " ";
             szMainContent += "pageFullHeight";
         }
