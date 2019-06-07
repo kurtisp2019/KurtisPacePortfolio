@@ -11,7 +11,7 @@ import  Button  from 'react-bootstrap/Button'
 
 function goToResume() {
 
-    document.location.href = "https://github.com/kurtisp2019/Resume-2019/blob/master/Kurtis.Pace.Resume.2019.pdf";
+    document.location.href = "https://github.com/kurtisp2019/Resume-2019/blob/master/kurtis-pace-resume-2019.pdf";
 }
 
 function Resume() {
