@@ -1,0 +1,14 @@
+/*
+    contact.css
+*/
+
+.contactTopPadding {
+    padding-top: 100px;
+}
+
+.orText {
+    text-align: center;
+    font-size: 45px;
+    font-style: italic;
+    color: #2096f3;
+}

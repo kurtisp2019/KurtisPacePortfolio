@@ -1,0 +1,41 @@
+/*
+    title.css
+*/
+
+.titleMainContent {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #2096f3;
+}
+
+.profilePic{
+    border: 1px solid white;
+    width: 240px;
+    height: 320px;
+    margin-bottom: 25px;
+}
+
+.profileName {
+    font-size: 45px;
+    color: white;
+}
+
+.profileDiv {
+    background-color: white;
+    height: 2px;
+    width: 170px;
+}
+
+.profileInfo {
+    font-size: 25px;
+    color: white
+}
+
+.profileLinkedInLink {
+    font-size: 25px;
+}

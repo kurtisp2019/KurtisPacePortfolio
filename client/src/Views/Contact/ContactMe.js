@@ -7,7 +7,7 @@
 
 import React from "react";
 import "../../styles/mainLayout.css";
-import "../../styles/contactMe.css";
+import "../../styles/contact/contactMe.css";
 
 function sendEmail(_e) {
 

@@ -9,7 +9,7 @@ import AddClientWidthAndHeight from "../../Higher Order Components/AddClientWidt
 import ContactInfo from "./ContactInfo";
 import ContactMe from "./ContactMe";
 import "../../styles/mainLayout.css";
-import "../../styles/contact.css"
+import "../../styles/contact/contact.css"
 
 class Contact extends Component {
 
@@ -18,10 +18,10 @@ class Contact extends Component {
 
         return (
             <>
-                <div style={{ paddingTop: "100px" }}>
+                <div className = "contactTopPadding">
                     <ContactInfo />
 
-                    <p style={{ textAlign: "center", fontSize: "45px", fontStyle: "italic", color: "#2096f3" }}>OR</p>
+                    <p className = "orText">OR</p>
 
                     <ContactMe />
                 </div>

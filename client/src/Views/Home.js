@@ -9,7 +9,6 @@ import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAn
 
 // pages
 import AboutMe from "./AboutMe";
-import ContactInfo from "./Contact/ContactInfo";
 import ContactMe from "./Contact/ContactMe";
 import Education from "./Education";
 import Title from "./Title";
@@ -23,25 +22,13 @@ class Home extends Component {
         var jsx = <></>;
 
         jsx = <>
-                <Title />
-                <AboutMe />
-                <Education />
+            <Title />
+            <AboutMe />
+            <Education />
             <RecentProjects />
-            <WorkExperience/>
-                <ContactMe />
-            </>;
-        // if (this.props.windowWidth < 768) {
-        //     jsx = <>
-        //         <Title />
-        //         <AboutMe />
-        //         <Education />
-        //         <RecentProjects/>
-        //         <ContactMe />
-        //     </>;
-        // }
-        // else {
-        //     jsx = <p>Desktop Home Page</p>
-        // }
+            <WorkExperience />
+            <ContactMe />
+        </>;
         return jsx;
     }
 }

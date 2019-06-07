@@ -6,7 +6,6 @@
 import "../../styles/header.css"
 import React, { Component } from "react"
 import HomeLogo from "./HomeLogo"
-import { BrowserRouter as Router, Link } from "react-router-dom"
 import Navs from "./Navs"
 
 import { Nav, Navbar } from 'react-bootstrap'
