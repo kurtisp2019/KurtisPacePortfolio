@@ -24,9 +24,9 @@ class Home extends Component {
         jsx = <>
             <Title />
             <AboutMe />
-            <Education />
+            <Education IsHomePage={1}/>
             <RecentProjects />
-            <WorkExperience />
+            <WorkExperience IsHomePage={1}/>
             <ContactMe />
         </>;
         return jsx;

@@ -38,10 +38,16 @@ function App() {
       <Switch>
 
           <Route exact path="/" component={Home} />
-          <Route exact path="/education" component={Education} />
+        <Route exact path="/education" render={(routeProps) => (
+    <Education {...routeProps} IsHomePage={0} />
+  )}
+/>
           <Route exact path="/projects" component={RecentProjects} />
           <Route exact path="/contact"  headerMenuIsCollapsed={headerMenuIsCollapsed} component={Contact} />
-          <Route exact path="/workexperience" component={WorkExperience} />
+          <Route exact path="/workexperience" render={(routeProps) => (
+    <WorkExperience {...routeProps} IsHomePage={0} />
+  )}
+/>
           <Route exact path="/resume" component={Resume} />
           <Route component={PageNotFound} />
 

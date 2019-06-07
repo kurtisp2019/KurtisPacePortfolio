@@ -25,6 +25,10 @@
       font-size: 45px;
 }
 
+.pageFullHeight {
+    height: 100vh;
+}
+
 .resumeBackgroundColor {
     background-color: smokewhite;
 
