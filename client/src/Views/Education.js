@@ -9,11 +9,13 @@ import React, { Component } from "react"
 import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight";
 import "../styles/mainLayout.css";
 import "../styles/education.css";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 class Education extends Component {
 
-    render() {
-
+    getMobileJSX() { 
         var szMainContent = "mainContent educationBackgroundColor";
         if (this.props.IsHomePage === 0) { 
             szMainContent += " ";
@@ -30,7 +32,7 @@ class Education extends Component {
                 <hr className="schoolTitleDiv"></hr>
                 <p className="levelOfAchievement" >Bachelors in Computer Science/Game Development</p>
                 <p><a className="schoolWebsiteLink" href="https://hello.fullsail.edu/brand_1ar_games">Full Sail University Game Development website</a></p>
-
+                
                 <img className="schoolLogoImg" src={require("../resources/images/DU-logo.jpg")} alt="fullsail" />
                 <span>     </span>
                 <img className="schoolLogoImg" src={require("../resources/images/DU-certificate.png")} alt="fullsail" />
@@ -41,6 +43,15 @@ class Education extends Component {
 
             </div>
         );
+    }
+
+   
+    
+    render() {
+
+        var jsx = <></>;
+            jsx = this.getMobileJSX();
+        return jsx;
     }
 }
 //

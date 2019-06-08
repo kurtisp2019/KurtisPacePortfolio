@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/KurtisPacePortfolio/static/css/main.5f7f65ec.chunk.css",
+    "main.css": "/KurtisPacePortfolio/static/css/main.5754338b.chunk.css",
     "main.js": "/KurtisPacePortfolio/static/js/main.372ff028.chunk.js",
     "main.js.map": "/KurtisPacePortfolio/static/js/main.372ff028.chunk.js.map",
     "runtime~main.js": "/KurtisPacePortfolio/static/js/runtime~main.dd2bfc78.js",
@@ -9,10 +9,10 @@
     "static/js/2.8702f204.chunk.js": "/KurtisPacePortfolio/static/js/2.8702f204.chunk.js",
     "static/js/2.8702f204.chunk.js.map": "/KurtisPacePortfolio/static/js/2.8702f204.chunk.js.map",
     "index.html": "/KurtisPacePortfolio/index.html",
-    "precache-manifest.a2cf48be6172b255eecf00dd10151ad8.js": "/KurtisPacePortfolio/precache-manifest.a2cf48be6172b255eecf00dd10151ad8.js",
+    "precache-manifest.b06cce1bcbd6677393deec1f53360aff.js": "/KurtisPacePortfolio/precache-manifest.b06cce1bcbd6677393deec1f53360aff.js",
     "service-worker.js": "/KurtisPacePortfolio/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/KurtisPacePortfolio/static/css/2.df9ef6f4.chunk.css.map",
-    "static/css/main.5f7f65ec.chunk.css.map": "/KurtisPacePortfolio/static/css/main.5f7f65ec.chunk.css.map",
+    "static/css/main.5754338b.chunk.css.map": "/KurtisPacePortfolio/static/css/main.5754338b.chunk.css.map",
     "static/media/DU-certificate.png": "/KurtisPacePortfolio/static/media/DU-certificate.fdc0a5bd.png",
     "static/media/DU-logo.jpg": "/KurtisPacePortfolio/static/media/DU-logo.91afde0a.jpg",
     "static/media/Pong.png": "/KurtisPacePortfolio/static/media/Pong.6583475d.png",
