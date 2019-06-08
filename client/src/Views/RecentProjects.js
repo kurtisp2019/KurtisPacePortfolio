@@ -27,6 +27,16 @@ class RecentProjects extends Component {
         startTime: null
     };
 
+    m_Projects = [];
+
+    state = {
+
+        opacity: 1.0,
+        transitionSpeed: 5.0,
+        m_curProject: 0
+
+    };
+
     stateMachine = {
         currentState: "",
         //states: ["visible", "alphaOutNext", "alphaInNext", "alphaOutPrev", "alphaInPrev" ],
@@ -125,15 +135,7 @@ class RecentProjects extends Component {
 
     };
 
-    m_Projects = [];
-
-    state = {
-
-        opacity: 1.0,
-        transitionSpeed: 1.0,
-        m_curProject: 0
-
-    };
+ 
 
     componentWillMount() {
         this.addProjects();

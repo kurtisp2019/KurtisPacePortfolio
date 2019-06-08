@@ -57,3 +57,18 @@
 .recentProjBackgroundColor {
     background-color: orange;
 }
+
+/* desktop */
+@media only screen and (min-width: 768px) {
+
+    .projectImg{
+        width: 600px;
+        height: 450px;
+    
+    }
+
+    .arrowBtnImg {
+        width: 75px;
+        height: 75px;
+    }
+}
