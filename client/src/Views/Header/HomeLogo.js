@@ -14,7 +14,7 @@ function HomeLogo() {
     <>
       <Navbar.Brand style={{ marginLeft: "10px", float: "left" }} href="/KurtisPacePortfolio/#/">
         <img
-          src={require("../../resources/images/computer-icon.jpg")}
+          src={require("../../resources/images/controllerPic.ico")}
           width="40"
           height="40"
           className="d-inline-block align-top"
