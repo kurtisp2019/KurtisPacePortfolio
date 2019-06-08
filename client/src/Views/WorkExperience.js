@@ -27,7 +27,7 @@ class WorkExperience extends Component{
                     <p className="title">Work Experience</p>
                     <hr className="mainContentDivider"></hr>
 
-                    <img style={{ paddingTop: "25px" }} src={require("../resources/images/getWebEdge.png")} alt="" />
+                    <img className= "jobImg" src={require("../resources/images/getWebEdge.png")} alt="" />
                     <p className="jobTitle">Get Web Edge</p>
                     <p className="jobPosition">ASP.NET Internship</p>
                     <p className="jobDates">October 2011 - February 2012</p>

@@ -9,18 +9,22 @@ import React, { Component } from "react"
 import AddClientWidthAndHeight from "../Higher Order Components/AddClientWidthAndHeight";
 import "../styles/mainLayout.css";
 import "../styles/education.css";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 class Education extends Component {
+    
+    render() {
 
-    getMobileJSX() { 
         var szMainContent = "mainContent educationBackgroundColor";
         if (this.props.IsHomePage === 0) { 
             szMainContent += " ";
             szMainContent += "pageFullHeight";
         }
+        if (this.props.windowWidth > 1084) { 
+            szMainContent = "mainContent educationBackgroundColor";
+            szMainContent += " ";
+            szMainContent += "extraFullHeight";
+        }
+
         return (
 
             <div className= {szMainContent}>
@@ -43,15 +47,6 @@ class Education extends Component {
 
             </div>
         );
-    }
-
-   
-    
-    render() {
-
-        var jsx = <></>;
-            jsx = this.getMobileJSX();
-        return jsx;
     }
 }
 //

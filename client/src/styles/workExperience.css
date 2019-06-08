@@ -35,6 +35,13 @@
 
 }
 
+.jobImg {
+    padding-top: 25px;
+    width: 350px;
+    height: 250px;
+
+}
+
 .workExpMainContent {
     height: 100vh;
 }
