@@ -14,11 +14,11 @@ function Navs() {
         <>
             <Nav className="justify-content-end mobileHeading" activeKey="/home">
                 <Nav.Item>
-                    <Nav.Link href="/KurtisPacePortfolio/#/">Home</Nav.Link>
+                    <Nav.Link href="/#/">Home</Nav.Link>
                 </Nav.Item>
                 
                 <Nav.Item>
-                    <Nav.Link href="/KurtisPacePortfolio/#/projects">Projects</Nav.Link>
+                    <Nav.Link href="/#/projects">Projects</Nav.Link>
                 </Nav.Item>
 
                 <Nav.Item>
