@@ -36,6 +36,9 @@
     color: blue;
 }
 
+.extraFullHeight {
+    height: 1200px;
+}
 
 /* desktop */
 @media only screen and (min-width: 1100px) {
