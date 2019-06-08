@@ -44,12 +44,12 @@ class Header extends Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                 <hr style = {{backgroundColor: "white", size: 1}}></hr>
                     <Nav className="mr-auto">
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/">Home</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/education">Education</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/contact">Contact</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/projects">Recent Projects</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/workexperience">Work Experience</Nav.Link>
-                        <Nav.Link style = {{color: "white"}} href="/KurtisPacePortfolio/#/resume">Resume</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/#/">Home</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/#/education">Education</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/#/contact">Contact</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/#/projects">Recent Projects</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/#/workexperience">Work Experience</Nav.Link>
+                        <Nav.Link style = {{color: "white"}} href="/#/resume">Resume</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

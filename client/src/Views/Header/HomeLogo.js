@@ -12,7 +12,7 @@ function HomeLogo() {
 
   return (
     <>
-      <Navbar.Brand style={{ marginLeft: "10px", float: "left" }} href="/KurtisPacePortfolio/#/">
+      <Navbar.Brand style={{ marginLeft: "10px", float: "left" }} href="/#/">
         <img
           src={require("../../resources/images/controllerPic.ico")}
           width="40"
