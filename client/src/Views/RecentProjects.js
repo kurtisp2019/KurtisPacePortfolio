@@ -155,21 +155,21 @@ class RecentProjects extends Component {
         this.m_Projects.push(new Project(
             pongImg,
             "Pong",
-            "This is the game Pong! It is an MVC structured React application that uses Express, MongoDB/Mongoose, and Bootstrap.  It has 1 player, 2 player, practice mode and as well an options menu which allows the user to customize some of the gameplay.  The options are stored in a database using MongoDB and Mongoose and read later when the player enters the game.  It also contains events which occur while playing thats logic is encapsulated inside an event manager.",
+            "This is the game Pong! It is an MVC structured React application that uses Express, MongoDB/Mongoose, and Bootstrap.  It has 1 player, 2 player, and practice modes as well an options menu which allows the user to customize some of the gameplay.  The options are stored in a database using MongoDB and Mongoose and read later when the player enters the game.  It also contains events which occur while playing that's logic is encapsulated inside an event manager.",
             "https://github.com/kurtisp2019/ReactPong",
-            "https://sgkppong.herokuapp.com/"));
+            "https://stekur-pong.herokuapp.com/"));
 
         this.m_Projects.push(new Project(
             burgerImg,
             "Burger",
-            "This is a pretty basic MVC structured, node based site that uses a custom ORM, express, mysql, path, and handlebars.It allows the user to add burgers to a list with a boolean called \"devoured\" set to false.  When the user clicks the devour button it flips the bool in the sql database and is displayed in the \"devoured\" list.",
+            "This is a pretty basic MVC structured, node-based site that uses a custom ORM, Express, MySQL, Path, and Express-Handlebars.  It allows the user to add burgers to a list with a boolean called \"devoured\" set to false.  When the user clicks the devour button it flips the bool in the SQL database and is displayed in the \"devoured\" list.",
             "https://github.com/kurtisp2019/burger",
             "https://burger041319.herokuapp.com/"));
 
         this.m_Projects.push(new Project(
             ticketMasterImg,
             "Ticketmaster Search",
-            "This site uses Firebase, Firebase authentification, Google Maps api, and Ticketmasters api to allow the user to search for events.  The user can specify the location theyd like to look into or leave it blank to get all events, the results will be displayed on the map in the center of the home page.  The user can also create an account on Firebase and save events they like to their account and can be viewed on their account page.",
+            "This site uses Firebase, Firebase authentication, Google Maps API, and Ticketmaster's API to allow the user to search for events.  The user can specify the location they'd like to look into or leave it blank to get all events, the results will be displayed on the map in the center of the home page.  The user can also create an account on Firebase and save events they like to their account and can be viewed on their account page.",
             "https://github.com/kurtisp2019/Ticketmaster-Search",
             "https://kurtisp2019.github.io/Ticketmaster-Search/"));
 
@@ -185,7 +185,6 @@ class RecentProjects extends Component {
         var dt = (currentTime - this.time.startTime) / 1000;
         this.time.startTime = currentTime;
 
-        console.log("dt " + dt);
 
         // update the state machine
         this.stateMachine.update(dt);

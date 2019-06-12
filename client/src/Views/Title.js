@@ -19,6 +19,7 @@ function Title() {
                 <p className = "profileInfo">904-571-8681</p>
                 <p className = "profileInfo">kurtis.pace2011@gmail.com</p>
                 <p className = "profileLinkedInLink"><a style={{ color: "white" }} href="https://www.linkedin.com/in/kurtis-pace-822a86154/">https://www.linkedin.com/in/kurtis-pace-822a86154/</a></p>
+                <p className = "profileLinkedInLink"><a style={{ color: "white" }} href="https://www.linkedin.com/in/kurtis-pace-822a86154/">-- Click here to see to my resume --</a></p>
             </div>
         </>
     );

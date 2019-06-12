@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.553a3181.chunk.css",
-    "main.js": "/static/js/main.194efd98.chunk.js",
-    "main.js.map": "/static/js/main.194efd98.chunk.js.map",
+    "main.js": "/static/js/main.4e8b43d0.chunk.js",
+    "main.js.map": "/static/js/main.4e8b43d0.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
     "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
     "static/css/2.df9ef6f4.chunk.css": "/static/css/2.df9ef6f4.chunk.css",
     "static/js/2.8702f204.chunk.js": "/static/js/2.8702f204.chunk.js",
     "static/js/2.8702f204.chunk.js.map": "/static/js/2.8702f204.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.85bcdb542386d0367cb1932a0653d184.js": "/precache-manifest.85bcdb542386d0367cb1932a0653d184.js",
+    "precache-manifest.d90f861463759859578b8eeb1870fbfb.js": "/precache-manifest.d90f861463759859578b8eeb1870fbfb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.df9ef6f4.chunk.css.map": "/static/css/2.df9ef6f4.chunk.css.map",
     "static/css/main.553a3181.chunk.css.map": "/static/css/main.553a3181.chunk.css.map",
@@ -22,6 +22,6 @@
     "static/media/fullsail.png": "/static/media/fullsail.4505d854.png",
     "static/media/getWebEdge.png": "/static/media/getWebEdge.29fafec3.png",
     "static/media/kp-profile-pic.jpg": "/static/media/kp-profile-pic.3772d1d6.jpg",
-    "static/media/kurtis-pace-resume-2019.pdf": "/static/media/kurtis-pace-resume-2019.a053ccf3.pdf"
+    "static/media/kurtis-pace-resume-2019.pdf": "/static/media/kurtis-pace-resume-2019.c18e26ec.pdf"
   }
 }
